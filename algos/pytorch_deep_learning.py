@@ -18,41 +18,54 @@ import torch.nn.functional as F
 
 class PytorchNeuralNetworkAlgorithm(QCAlgorithm):
     def Initialize(self):
-        self.SetStartDate(2013, 10, 7)  # Set Start Date
-        self.SetEndDate(2013, 10, 8)  # Set End Date
+        self.SetStartDate(2019, 1, 1)  # Set Start Date
+        self.SetEndDate(2021, 6, 30)  # Set End Date
 
         self.SetCash(100000)  # Set Strategy Cash
 
+        # Use the default one
+        # self.SetBrokerageModel(BrokerageName.GDAX)
+    
         # add symbol
-        spy = self.AddEquity("SPY", Resolution.Minute)
+        btcusd = self.AddCrypto("BTCUSD", Resolution.Minute, Market.Bitfinex)
+        # spy = self.AddEquity("SPY", Resolution.Minute)
         self.symbols = [
-            spy.Symbol
+            btcusd.Symbol
         ]  # using a list can extend to condition for multiple symbols
 
         self.lookback = 30  # days of historical data (look back)
 
         self.Schedule.On(
-            self.DateRules.EveryDay("SPY"),
-            self.TimeRules.AfterMarketOpen("SPY", 28),
+            self.DateRules.EveryDay(),
+            # self.TimeRules.AfterMarketOpen(btcusd.Symbol, 28),
+            self.TimeRules.At(9, 0),
             self.NetTrain,
         )  # train the NN
         self.Schedule.On(
-            self.DateRules.EveryDay("SPY"),
-            self.TimeRules.AfterMarketOpen("SPY", 30),
+            self.DateRules.EveryDay(),
+            # self.TimeRules.AfterMarketOpen("SPY", 30),
+            self.TimeRules.At(10, 0),
             self.Trade,
         )
+        
+        self.net = Net(n_feature=self.lookback, n_hidden=10, n_output=1)  # define the network
+        
 
     def NetTrain(self):
+        
+        # if self.IsWarmingUp: return
+    
         # Daily historical data is used to train the machine learning model
-        history = self.History(self.symbols, self.lookback + 1, Resolution.Daily)
+        history = self.History(self.symbols, self.lookback + 1 + 10, Resolution.Daily)
 
         # dicts that store prices for training
         self.prices_x = {}
         self.prices_y = {}
 
         # dicts that store prices for sell and buy
-        self.sell_prices = {}
-        self.buy_prices = {}
+        self.low_prices = {}
+        self.high_prices = {}
+        
 
         for symbol in self.symbols:
             if not history.empty:
@@ -64,22 +77,22 @@ class PytorchNeuralNetworkAlgorithm(QCAlgorithm):
             # if this symbol has historical data
             if symbol in self.prices_x:
 
-                net = Net(n_feature=1, n_hidden=10, n_output=1)  # define the network
-                optimizer = torch.optim.SGD(net.parameters(), lr=0.2)
+                # net = Net(n_feature=1, n_hidden=10, n_output=1)  # define the network
+                optimizer = torch.optim.SGD(self.net.parameters(), lr=0.1)
                 loss_func = (
                     torch.nn.MSELoss()
                 )  # this is for regression mean squared loss
 
-                for t in range(200):
+                for t in range(100):
                     # Get data and do preprocessing
-                    x = torch.from_numpy(np.array(self.prices_x[symbol])).float()
-                    y = torch.from_numpy(np.array(self.prices_y[symbol])).float()
+                    x = torch.from_numpy(np.array([self.prices_x[symbol][i:i+self.lookback] for i in range(11) ])).float()
+                    y = torch.from_numpy(np.array([self.prices_y[symbol][i-1+self.lookback] for i in range(11) ])).float()
 
                     # unsqueeze data (see pytorch doc for details)
-                    x = x.unsqueeze(1)
-                    y = y.unsqueeze(1)
+                    # x = x.unsqueeze(1)
+                    # y = y.unsqueeze(1)
 
-                    prediction = net(x)  # input x and predict based on x
+                    prediction = self.net(x)  # input x and predict based on x
 
                     loss = loss_func(prediction, y)  # must be (1. nn output, 2. target)
 
@@ -87,28 +100,55 @@ class PytorchNeuralNetworkAlgorithm(QCAlgorithm):
                     loss.backward()  # backpropagation, compute gradients
                     optimizer.step()  # apply gradients
 
-            # Follow the trend
-            self.buy_prices[symbol] = net(y)[-1] + np.std(y.data.numpy())
-            self.sell_prices[symbol] = net(y)[-1] - np.std(y.data.numpy())
+                # Follow the trend
+                usefulData = np.array(self.prices_y[symbol][-self.lookback:])
+                self.high_prices[symbol] = self.net(torch.from_numpy(usefulData).float()) + np.std(usefulData)
+                self.low_prices[symbol] = self.net(torch.from_numpy(usefulData).float()) - np.std(usefulData)
 
     def Trade(self):
         """ 
         Enter or exit positions based on relationship of the open price of the current bar and the prices defined by the machine learning model.
         Liquidate if the open price is below the sell price and buy if the open price is above the buy price 
         """
-        for holding in self.Portfolio.Values:
-            if (
-                self.CurrentSlice[holding.Symbol].Open
-                < self.sell_prices[holding.Symbol]
-                and holding.Invested
+        
+        if self.IsWarmingUp: return
+        
+        # Realize the profit of the previous day
+        self.Liquidate()
+            
+        for symbol in self.symbols:
+            
+            if (symbol not in self.low_prices
+                or symbol not in self.high_prices
             ):
-                self.Liquidate(holding.Symbol)
+                continue
+            
+            # Set positions for today
+            openPrice = round(self.Securities[symbol.Value].Price, 2)
+            
+            if (
+                openPrice <= self.low_prices[symbol]
+            ):
+                self.SetHoldings(symbol.Value, 1 / len(self.symbols))
 
-            if (
-                self.CurrentSlice[holding.Symbol].Open > self.buy_prices[holding.Symbol]
-                and not holding.Invested
+            elif (
+                openPrice >= self.high_prices[symbol]
             ):
-                self.SetHoldings(holding.Symbol, 1 / len(self.symbols))
+                self.SetHoldings(symbol.Value, -1 / len(self.symbols))
+        
+        # for holding in self.Portfolio.Values:
+        #     if (
+        #         self.CurrentSlice[holding.Symbol].Open
+        #         < self.sell_prices[holding.Symbol]
+        #         and holding.Invested
+        #     ):
+        #         self.Liquidate(holding.Symbol)
+
+        #     if (
+        #         self.CurrentSlice[holding.Symbol].Open > self.buy_prices[holding.Symbol]
+        #         and not holding.Invested
+        #     ):
+        #         self.SetHoldings(holding.Symbol, 1 / len(self.symbols))
 
 
 # class for Pytorch NN model
