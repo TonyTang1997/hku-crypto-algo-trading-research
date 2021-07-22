@@ -21,7 +21,7 @@ This module covers all the necessary programming knowledge in python for the stu
 
 This module covers basic data science and machine learning techniques with python, which can be applied to develop and enchance the trading algorithms.
 
-### [Module 3 - Quantitative Finance(https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%203%20-%20Quantitative%20Finance)
+### [Module 3 - Quantitative Finance](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%203%20-%20Quantitative%20Finance)
 
 This module covers basic quantative finance knowledge, including financial mathematics, evluation metrics used in the compeition, the usage of quantconnect platform and mordern portfolio theory.
 
