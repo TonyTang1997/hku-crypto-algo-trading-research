@@ -39,7 +39,7 @@ This module covers all the necessary programming knowledge in python for the stu
 - Objects as Arguments and Parameters
 - Inheritance
 
-### [Module 2 - Data Science and Machine Learning](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%202%20-%20Machine%20Learning)
+### [Module 2 - Data Science and Machine Learning](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%202%20-%20Data%20Science%20and%20Machine%20Learning)
 
 This module covers basic data science and machine learning techniques with python, which can be applied to develop and enchance the trading algorithms.
 
