@@ -43,10 +43,24 @@ This module covers all the necessary programming knowledge in python for the stu
 
 This module covers basic data science and machine learning techniques with python, which can be applied to develop and enchance the trading algorithms.
 
-- Pandas 
-- Numpy 
-- Basic Machine Learning Theory
-- Scikit-Learn
+- Pandas
+    - Creating, Reading and Writing
+        - [Tutorial](tutorials/Module 2 - Data Science and Machine Learning/Pandas/1. Creating, Reading and Writing/Tutorial)
+        - [Exercise (example)](tutorials/Module 2 - Data Science and Machine Learning/Pandas/1. Creating, Reading and Writing/Tutorial)
+    - [Indexing, Selecting & Assigning](tutorials/Module 2 - Data Science and Machine Learning/Pandas/2. Indexing, Selecting & Assigning)
+    - [Summary Functions and Maps](tutorials/Module 2 - Data Science and Machine Learning/Pandas/3. Summary Functions and Maps)
+    - [Grouping and Sorting](tutorials/Module 2 - Data Science and Machine Learning/Pandas/4. Grouping and Sorting)
+    - [Data Types and Missing Values](tutorials/Module 2 - Data Science and Machine Learning/Pandas/5. Data Types and Missing Values)
+    - [Renaming and Combining](tutorials/Module 2 - Data Science and Machine Learning/Pandas/6. Renaming and Combining)
+- Machine Learning
+    - [How Models Work](tutorials/Module 2 - Data Science and Machine Learning/Machine Learning/1. How Models Work)
+    - [Basic Data Exploration](tutorials/Module 2 - Data Science and Machine Learning/Machine Learning/2. Basic Data Exploration)
+    - [Your First Machine Learning Model](tutorials/Module 2 - Data Science and Machine Learning/Machine Learning/3. Your First Machine Learning Model)
+    - [Model Validation](tutorials/Module 2 - Data Science and Machine Learning/Machine Learning/4. Model Validation)
+    - [Underfitting and Overfitting](tutorials/Module 2 - Data Science and Machine Learning/Machine Learning/5. Underfitting and Overfitting)
+    - [Random Forests](tutorials/Module 2 - Data Science and Machine Learning/Machine Learning/6. Random Forests)
+    - [Machine Learning Competition](tutorials/Module 2 - Data Science and Machine Learning/Machine Learning/7. Machine Learning Competition)
+
 
 ### [Module 3 - Quantitative Finance](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%203%20-%20Quantitative%20Finance)
 
