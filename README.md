@@ -45,21 +45,21 @@ This module covers basic data science and machine learning techniques with pytho
 
 - Pandas
     - Creating, Reading and Writing
-        - [Tutorial](tutorials/Module 2 - Data Science and Machine Learning/Pandas/1. Creating, Reading and Writing/Tutorial)
-        - [Exercise (example)](tutorials/Module 2 - Data Science and Machine Learning/Pandas/1. Creating, Reading and Writing/Tutorial)
-    - [Indexing, Selecting & Assigning](tutorials/Module 2 - Data Science and Machine Learning/Pandas/2. Indexing, Selecting & Assigning)
-    - [Summary Functions and Maps](tutorials/Module 2 - Data Science and Machine Learning/Pandas/3. Summary Functions and Maps)
-    - [Grouping and Sorting](tutorials/Module 2 - Data Science and Machine Learning/Pandas/4. Grouping and Sorting)
-    - [Data Types and Missing Values](tutorials/Module 2 - Data Science and Machine Learning/Pandas/5. Data Types and Missing Values)
-    - [Renaming and Combining](tutorials/Module 2 - Data Science and Machine Learning/Pandas/6. Renaming and Combining)
+        - [Tutorial](tutorials/Module 2 - Data Science and Machine Learning/Pandas/1. Creating, Reading and Writing/Tutorial/readme.md)
+        - [Exercise (example)](tutorials/Module 2 - Data Science and Machine Learning/Pandas/1. Creating, Reading and Writing/Exercise (example)/readme.md)
+    - [Indexing, Selecting & Assigning](tutorials/Module 2 - Data Science and Machine Learning/Pandas/2. Indexing, Selecting & Assigning/readme.md)
+    - [Summary Functions and Maps](tutorials/Module 2 - Data Science and Machine Learning/Pandas/3. Summary Functions and Maps/readme.md)
+    - [Grouping and Sorting](tutorials/Module 2 - Data Science and Machine Learning/Pandas/4. Grouping and Sorting/readme.md)
+    - [Data Types and Missing Values](tutorials/Module 2 - Data Science and Machine Learning/Pandas/5. Data Types and Missing Values/readme.md)
+    - [Renaming and Combining](tutorials/Module 2 - Data Science and Machine Learning/Pandas/6. Renaming and Combining/readme.md)
 - Machine Learning
-    - [How Models Work](tutorials/Module 2 - Data Science and Machine Learning/Machine Learning/1. How Models Work)
-    - [Basic Data Exploration](tutorials/Module 2 - Data Science and Machine Learning/Machine Learning/2. Basic Data Exploration)
-    - [Your First Machine Learning Model](tutorials/Module 2 - Data Science and Machine Learning/Machine Learning/3. Your First Machine Learning Model)
-    - [Model Validation](tutorials/Module 2 - Data Science and Machine Learning/Machine Learning/4. Model Validation)
-    - [Underfitting and Overfitting](tutorials/Module 2 - Data Science and Machine Learning/Machine Learning/5. Underfitting and Overfitting)
-    - [Random Forests](tutorials/Module 2 - Data Science and Machine Learning/Machine Learning/6. Random Forests)
-    - [Machine Learning Competition](tutorials/Module 2 - Data Science and Machine Learning/Machine Learning/7. Machine Learning Competition)
+    - [How Models Work](tutorials/Module 2 - Data Science and Machine Learning/Machine Learning/1. How Models Work/readme.md)
+    - [Basic Data Exploration](tutorials/Module 2 - Data Science and Machine Learning/Machine Learning/2. Basic Data Exploration/readme.md)
+    - [Your First Machine Learning Model](tutorials/Module 2 - Data Science and Machine Learning/Machine Learning/3. Your First Machine Learning Model/readme.md)
+    - [Model Validation](tutorials/Module 2 - Data Science and Machine Learning/Machine Learning/4. Model Validation/readme.md)
+    - [Underfitting and Overfitting](tutorials/Module 2 - Data Science and Machine Learning/Machine Learning/5. Underfitting and Overfitting/readme.md)
+    - [Random Forests](tutorials/Module 2 - Data Science and Machine Learning/Machine Learning/6. Random Forests/readme.md)
+    - [Machine Learning Competition](tutorials/Module 2 - Data Science and Machine Learning/Machine Learning/7. Machine Learning Competition/readme.md)
 
 
 ### [Module 3 - Quantitative Finance](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%203%20-%20Quantitative%20Finance)
