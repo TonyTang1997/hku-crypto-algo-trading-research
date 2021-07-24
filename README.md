@@ -13,10 +13,10 @@ and skills to build and deploy your own algotrading strategy.
 
 This module covers basic knowledge of cryptocurrency, trading and algorithmic trading.
 
-- 0.1. What is a cryptocurrency?
-- 0.2. What is trading?
-- 0.3. Why trade cryptocurrenc.y?
-- 0.4. Algoritmic trading
+0.1. What is a cryptocurrency?
+0.2. What is trading?
+0.3. Why trade cryptocurrenc.y?
+0.4. Algoritmic trading
 
 ### [Module 1 - Programming Technology](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/tutorials/Module%201%20-%20Programming%20Technology/Module%201%20-%20Overview.ipynb)
 
