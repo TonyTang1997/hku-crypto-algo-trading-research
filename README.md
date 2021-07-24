@@ -13,10 +13,10 @@ and skills to build and deploy your own algotrading strategy.
 
 This module covers basic knowledge of cryptocurrency, trading and algorithmic trading.
 
-- What is a cryptocurrency?
-- What is trading?
-- Why trade cryptocurrency?
-- Algoritmic trading
+- 0.1. What is a cryptocurrency?
+- 0.2. What is trading?
+- 0.3. Why trade cryptocurrenc.y?
+- 0.4. Algoritmic trading
 
 ### [Module 1 - Programming Technology](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/tutorials/Module%201%20-%20Programming%20Technology/Module%201%20-%20Overview.ipynb)
 
@@ -69,7 +69,18 @@ This module covers basic quantative finance knowledge, profolio evaluation and e
 - Basics maths of quantitative finance
 - Evaluation metrics for portfolio
 - Working with Quantconnect platform
-- Modern Portfolio Theory
+
+
+### [Module 4 - Trading Strategies Development](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%203%20-%20Quantitative%20Finance)
+
+This module covers the implementation of six basic trading strategies which you can directly apply on quantconnect and further enchance them.
+
+- Moving Average Trend Following 
+- Bollinger Band Trend Following / Mean-reverting
+- Statistical Arbitrage
+- Gradient Boosting Decision Trees based Model
+- Deep Learning based Model
+- On-Chain Analysis
 
 
 
