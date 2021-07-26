@@ -32,4 +32,4 @@ In this section, we are going to cover the following topics about quantative fin
   
   * [link to quantconnect api tutorials](https://www.quantconnect.com/tutorials/api-tutorials/introduction)
   
-  * [link to code of buy and hold bitcoin strategy](<../../algos/https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/algos/bitcoin_buy_and_hold.py>)
+  * [link to code of buy and hold bitcoin strategy](<../../algos/bitcoin_buy_and_hold.py>)
