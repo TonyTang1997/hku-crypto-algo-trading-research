@@ -8,7 +8,7 @@ Recently, the quantitative finance industry has been utilising data science and 
 ## Tutorials 
 
 In this section, we are going to cover the following topics about quantative finance 
-- Basics maths of quantitative finance
+- 3.1. Basics maths of quantitative finance
   
   * basic concepts about returns and how to compute them
 
@@ -16,7 +16,7 @@ In this section, we are going to cover the following topics about quantative fin
 
   * [link to tutorial video](https://drive.google.com/file/d/1kB_RyVsdOWsHxh7lItMUlfY716g0Kc9A/view?usp=sharing)
 
-- Evaluation metrics for portfolio
+- 3.2. Evaluation metrics for portfolio
 
   * Evaluation metrics that will be used in competitions and examples of calculating them
 
@@ -24,7 +24,7 @@ In this section, we are going to cover the following topics about quantative fin
 
   * [link to tutorial video](https://drive.google.com/file/d/1kB_RyVsdOWsHxh7lItMUlfY716g0Kc9A/view?usp=sharing)
 
-- Working with Quantconnect platform
+- 3.3. Working with Quantconnect platform
   
   * Using the basic functionality of quant connect platform
 
