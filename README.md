@@ -9,7 +9,7 @@ This GitHub repo serves you as a directory for the whole learning process about 
 
 This README provides a general picture of the upcoming tutorials aimed at equipping you with the necessary knowledge and skills to build and deploy your own algotrading strategy.
 
-### [Module 0 - Introduction](<./tutorials/Module 0 - Introduction/Introduction_to_Algorithmic_Trading.md>)
+### [Module 0 - Introduction](<./tutorials/Module 0 - Introduction/README.md>)
 
 This module covers basic knowledge of cryptocurrency, trading and algorithmic trading.
 
