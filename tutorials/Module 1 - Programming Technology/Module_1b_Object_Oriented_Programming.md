@@ -12,6 +12,9 @@ In This chapter, we will cover the basic python OOP skills you’ll need so you 
 
 **Note that there are quite some optional external references included in this Module, feel free to go through or skip them at your own interest.**
 
+## Prerequisites:
+- Python basics (Module 1a)
+
 ## Estimated Time to Finish:
 3-5 hours (excluding Optional Materials)
 
