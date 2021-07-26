@@ -10,6 +10,7 @@ In This chapter, we will cover the key Python skills you’ll need so you can st
 
 **Note that there are quite some optional external references included in this Module, feel free to go through or skip them at your own interest.**
 
+
 ## Pre-requisites
 None
 
@@ -21,19 +22,32 @@ None
 - learning about `string`, `list`, `tuple` and `dictionary`
 - learning how to import external libraries
 
+
+## External Links
+
+1. https://www.kaggle.com/learn/python
+	- You will be learning the basics of python from the tutorials on [Kaggle](https://www.kaggle.com), a pupular platform for data science competitions and also a source of useful datasets. Catered towards data science (which is relevant to algotrading), Kaggle will be main learning resource for this module as the tutorials are interactive and filled with examples. You will also get to try out some exercises inside Kaggle notebooks after learning each subtopic.
+
+2. [How to teach yourself hard things](https://jvns.ca/blog/2018/09/01/learning-skills-you-can-practice/)
+3. [f-strings](https://realpython.com/python-f-strings/)
+4. [Python Crash Course 2nd Edition Cheatsheets](https://ehmatthes.github.io/pcc_2e/cheat_sheets/cheat_sheets/)
+5.  [datetime](https://www.freecodecamp.org/news/how-to-use-timedelta-objects-in-python/)
+6. [How to download and install Python Packages and Modules with Pip](https://www.youtube.com/watch?v=jnpC_Ib_lbc)
+7. [Beginner resources - Python resources for everybody](https://learnbyexample.github.io/py_resources/beginners.html)
+8. ["Think Python"](https://greenteapress.com/wp/think-python/)
+9. [Programming with Mosh - Python for Beginners [Full Course]](https://www.youtube.com/watch?v=_uQrJ0TkZlc)
+
+
+
+
 ## Learning Programming
 It can take months or years to become proficient in basic programming. Many times, you'll need to review lessons several times. Programming also necessitates hands-on expertise; instead of reading/watching the examples, actively follow along on your computer. Learning programming is similar to learning how to drive a car or doing physical fitness exercises. it is not possible to attain the skills solely by reading about it and/or viewing videos.
 
 You are recommended to read this article: [How to teach yourself hard things](https://jvns.ca/blog/2018/09/01/learning-skills-you-can-practice/)
 
-Solving practice problems is very useful to review your understanding. After familiarizing with basics, try experimenting with your newly acquired skills. If you get stuck, you can search online/documentation/books for those specific problems (go to the Optional Resources below for more), and if that fails, you can ask us for help.
-
-## The Tutorial
+Solving practice problems is very useful to review your understanding. After familiarizing with the basics, try experimenting with your newly acquired skills. If you get stuck, you can search online/documentation/books for those specific problems (go to the [Optional Resources](<## Optional Resources>) below for more), and if that fails, you can ask us for help.
 
 
-You will be learning the basics of python from the tutorials on [Kaggle](https://www.kaggle.com), a popular platform for data science competitions and also a source of useful datasets. Catered towards data science (which is relevant to algotrading), Kaggle will be main learning resource for this module as the tutorials are interactive and filled with examples. You will also get to try out some exercises inside Kaggle notebooks after learning each subtopic.
-
-https://www.kaggle.com/learn/python
 
 ## Overview
 1.  [Syntax](<### 1. Syntax >)
@@ -47,7 +61,7 @@ https://www.kaggle.com/learn/python
 ---
 
 ## Summary
-Below is the summary of the content covered in the Kaggle tutorials. Relevant cheatsheets from [Python Crash Course 2nd Edition](https://ehmatthes.github.io/pcc_2e/cheat_sheets/cheat_sheets/) is also provided (Credit goes to the author [Eric Matthes](https://ehmatthes.github.io/))
+Below is the summary of the content covered in the [Kaggle](https://www.kaggle.com/learn/python) tutorials. Relevant Cheatsheets from [Python Crash Course 2nd Edition](https://ehmatthes.github.io/pcc_2e/cheat_sheets/cheat_sheets/) is also provided (Credit goes to the author [Eric Matthes](https://ehmatthes.github.io/))
 
 ---
 
@@ -56,7 +70,7 @@ Below is the summary of the content covered in the Kaggle tutorials. Relevant ch
 [cheatsheet](https://drive.google.com/file/d/1xDrV2ugdKPQWpEsJGhfrjD3oES2QZ0GH/view?usp=sharing)
 
 - `print("Strings are enclosed by double or single quotation marks")`
-- arithmetic
+- arithmetics
 
 | Operator     | Name    | Description |       
 |--------------|----------------|--------------------------------------------------------|

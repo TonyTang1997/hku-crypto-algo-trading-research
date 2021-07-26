@@ -25,7 +25,8 @@ Learning how to:
 - Use **attributes** and **methods** to define the properties and behaviors of an object
 - Use **inheritance** to create **child classes** from a **parent class**
 
-## The Tutorial
+## External Links
+### The Tutorial
 
 The tutorial will be mainly based on these 2 sources.
 
@@ -49,7 +50,14 @@ The tutorial will be mainly based on these 2 sources.
 - Exercises
 
 
-Same as the last chapter, a [cheatsheet](./cheatsheets/beginners_python_cheat_sheet_pcc_classes.pdf) from [Python Crash Course 2nd Edition](https://ehmatthes.github.io/pcc_2e/cheat_sheets/cheat_sheets/) is provided (Credit goes to the author [Eric Matthes](https://ehmatthes.github.io/))
+Same as the last chapter, a [cheatsheet](./cheatsheets/beginners_python_cheat_sheet_oop.pdf) from [Python Crash Course 2nd Edition](https://ehmatthes.github.io/pcc_2e/cheat_sheets/cheat_sheets/) is provided (Credit goes to the author [Eric Matthes](https://ehmatthes.github.io/))
+
+### Misc
+- [object-oriented programming](http://en.wikipedia.org/wiki/Object-oriented_programming)
+- [procedural programming](http://en.wikipedia.org/wiki/Procedural_programming)
+- [QuantConnect Docs](https://www.quantconnect.com/docs/algorithm-reference/trading-and-orders#Trading-and-Orders-Tracking-Order-Events)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/inheritance-in-python/)
+- [Real Python - Object-Oriented Programming (OOP) in Python 3](https://realpython.com/python3-object-oriented-programming/)
 
 ---
 
@@ -61,7 +69,7 @@ Same as the last chapter, a [cheatsheet](./cheatsheets/beginners_python_cheat_sh
 3.  [Constructors and Instances](<## 3. Constructors and Instances>)
 4.  [Methods](<## 4. Methods>)
 5.  [Objects as Arguments and Parameters](<## 5. Objects as Arguments and Parameters>)
-6.  [Inheritance (Optional)](<### 6. Inheritance>)
+6. [Inheritance (Optional)](<### 6. Inheritance (Optional)>)
 
 ---
 
@@ -84,7 +92,6 @@ Up to now, some of the programs we have been writing use a [procedural programmi
 
 ---
 
-<a id='s2'></a>
 ## 2. Classes
 
 Jargon alert: There will be quite some jargons in this chapter. For a quick recap, please visit the [Glossary](https://runestone.academy/runestone/books/published/thinkcspy/ClassesBasics/Glossary.html)
@@ -167,7 +174,7 @@ class SampleAlgorithm(QCAlgorithm):
 ```
 
 `Initialize(self)` is the constructor of the `SampleAlgorithm` class we defined.
-- Note that there is no need to define `__init__()` for algorithms in quantconnect.
+- Note that there is no need to define `__init__()` for algorithms in QuantConnect.
 
 `self.SetCash` is a method from the `QCalgorithm` class, the parent class `SampleAlgorithm` inherits from.
 - methods and Inheritance will be explained below.
@@ -240,7 +247,7 @@ class SampleAlgorithm(QCAlgorithm):
 we can define `OnOrderEvent()` that uses `orderEvent` objects as parameter
 Each order made by the algorithm generates order events, which are passed to the `OnOrderEvent()` method for logging the information about order states. For more information, you can refer to [QuantConnect Docs](https://www.quantconnect.com/docs/algorithm-reference/trading-and-orders#Trading-and-Orders-Tracking-Order-Events)
 
-> Forgot about how .format() works? Revisit the string subtopic from the last chapter [Module 1a - Python Basics](https://drive.google.com/file/d/1G8WNNzr-mWuwEmXRVIBHZgbGtXs-1hWH/view?usp=sharing)
+> Forgot about how .format() works? Revisit the string subtopic from the last chapter [Module 1a - Python Basics](./Module_1a_Python_Basics.md)
 
 ---
 ### 6. Inheritance (Optional)
