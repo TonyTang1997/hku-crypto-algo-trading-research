@@ -31,11 +31,3 @@ In this section, we are going to cover the following topics about quantative fin
   * [link to demonstration video](https://drive.google.com/file/d/1qbKsgF8avvLKuevmn64qViGbWhv9Q4QE/view)
   
   * [link to quantconnect api tutorials](https://www.quantconnect.com/tutorials/api-tutorials/introduction)
-
-- Modern Portfolio Theory
-  
-  * Optimising the performance of a portfolio based on the metrics introduced
-
-  * [link to quantconnect tutorial](https://www.quantconnect.com/tutorials/introduction-to-financial-python/modern-portfolio-theory)
-  
-  * [link to tutorial video](https://drive.google.com/file/d/1kB_RyVsdOWsHxh7lItMUlfY716g0Kc9A/view?usp=sharing)
