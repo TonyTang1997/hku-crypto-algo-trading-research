@@ -27,7 +27,9 @@ In this section, we are going to cover the following topics about quantative fin
 - 3.3. Working with Quantconnect platform
   
   * Using the basic functionality of quant connect platform
-
+	
   * [link to demonstration video](https://drive.google.com/file/d/1qbKsgF8avvLKuevmn64qViGbWhv9Q4QE/view)
   
   * [link to quantconnect api tutorials](https://www.quantconnect.com/tutorials/api-tutorials/introduction)
+  
+  * [link to code of buy and hold bitcoin strategy](<../../algos/https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/algos/bitcoin_buy_and_hold.py>)
