@@ -9,6 +9,8 @@ This GitHub repo serves you as a directory for the whole learning process about 
 
 This README provides a general picture of the upcoming tutorials aimed at equipping you with the necessary knowledge and skills to build and deploy your own algotrading strategy.
 
+## Part 1: Preliminaries
+
 ### [Module 0 - Introduction](<./tutorials/Module 0 - Introduction/README.md>)
 
 This module covers basic knowledge of cryptocurrency, trading and algorithmic trading.
@@ -69,6 +71,8 @@ This module covers basic quantitative finance knowledge, portfolio evaluation an
 - 3.1. Basic math of quantitative finance
 - 3.2. Evaluation metrics for portfolio
 - 3.3. Working with Quantconnect platform
+
+## Part 2: Crypto Algorithmic Trading Strategies
 
 ### [Module 4 - Trading Strategies Development](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%204%20-%20Trading%20Strategies%20Development)
 
