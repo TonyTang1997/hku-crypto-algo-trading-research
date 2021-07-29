@@ -29,6 +29,18 @@ Please refer to the following guides on how to install Python 3 on different pla
 
 #### Python basics
 [Module 1.1 - Python Basics](<./tutorials/Module 1 - Programming Technology/Module_1.1_Python_Basics.md>)
+- 1.1.1 Syntax
+- 1.1.2 Functions
+- 1.1.3 Booleans & Conditions
+- 1.1.4 Lists
+- 1.1.5 Loops and List comprehension
+- 1.1.6 Strings and dictionaries
+- 1.1.7 Working with External Libraries
 
 #### Python OOP
 [Module 1.2 - Object-Oriented Programming](<./tutorials/Module 1 - Programming Technology/Module_1.2_Object_Oriented_Programming.md>)
+- 1.2.1 Classes
+- 1.2.2 Constructors and Instances
+- 1.2.3 Methods
+- 1.2.4 Objects as Arguments and Parameters
+- 1.2.5 Inheritance (Optional)
