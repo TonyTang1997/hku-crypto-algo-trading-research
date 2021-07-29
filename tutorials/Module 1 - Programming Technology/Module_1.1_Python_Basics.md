@@ -219,7 +219,7 @@ Beginners may have trouble dealing with exceptions and errors. Here is a handy f
 
 ## Next Up:
 
-You will learn [Object Oriented Programming](<./Module_1.1_Object_Oriented_Programming.md>) in Python 3.
+You will learn [Object Oriented Programming](<./Module_1.2_Object_Oriented_Programming.md>) in Python 3.
 
 ---
 
