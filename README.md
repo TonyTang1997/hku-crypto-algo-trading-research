@@ -3,7 +3,7 @@ HKU-SCF FinTech Academy
 
 # Cryptocurrency Algorithmic Trading
 
-## Developed by HKU-SCF FinTech Academy
+## Developed by HKU-SCF FinTech Academy 
 
 This GitHub repo serves you as a directory for the whole learning process about cryptocurrency and algorithmic trading. Topics related to algorithmic trading will be discussed, such as motivations of adopting it (especially in the crypto market), an overview of knowledge required to start algotrading, and the general procedure of building algorithmic trading strategies.
 
