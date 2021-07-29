@@ -19,10 +19,10 @@ This chapter will give an overview of cryptocurrencies and explain the motivatio
 
 
 ## Overview
-1.  [What is a cryptocurrency?](<# 1. What is a cryptocurrency?>)
-2.	[What is trading?](<# 2. What is trading?>)
-3.	[Why trade cryptocurrency?](<## 3. Trading cryptocurrencies>)
-4.	[Algoritmic trading](<## 4. Algorithmic Trading>)
+0.1 [What is a cryptocurrency?](<# 1. What is a cryptocurrency?>)
+0.2	[What is trading?](<# 2. What is trading?>)
+0.3	[Why trade cryptocurrency?](<## 3. Trading cryptocurrencies>)
+0.4	[Algoritmic trading](<## 4. Algorithmic Trading>)
 
 
 
@@ -30,19 +30,19 @@ This chapter will give an overview of cryptocurrencies and explain the motivatio
 <div STYLE="page-break-after: always;"></div>
 
 
-# 1. What is a cryptocurrency?
+# 0.1 What is a cryptocurrency?
 
 *Credit:
 The tutorial about cryptocurrency is based on [Coin Bureau](https://youtu.be/VYWc9dFqROI?t=131)'s video*
 
-### 👨‍🏫Cryptocurrency 101👨‍🏫
+### 0.1.1 👨‍🏫Cryptocurrency 101👨‍🏫
 
-from investopedia:
+from Investopedia:
 > A cryptocurrency is a digital or virtual currency that is secured by cryptography, which makes it nearly impossible to counterfeit or double-spend. Many cryptocurrencies are decentralized networks based on blockchain technology—a distributed ledger enforced by a disparate network of computers. A defining feature of cryptocurrencies is that they are generally not issued by any central authority, rendering them theoretically immune to government interference or manipulation.
 
 Simply put, they are akin to regular currencies but digital. Instead of having banks or the government keep track of your wallet balance, this is done by computers that connect to a cryptocurrency network to process transactions and earn cryptocurrency (In the case of Bitcoin, it is called "mining") for doing so.
 
-### 🙋‍♂‍Questions About Bitcoin, Dogecoin, Ethereum etc.🙋‍♂‍
+### 0.1.2 🙋‍♂‍Questions About Bitcoin, Dogecoin, Ethereum etc.🙋‍♂‍
 
 According to [coingecko](https://www.coingecko.com/en), there are currently more than 8000 cryptocurrencies out there. Broadly speaking they can be divided into two types, **coins** and **tokens**
 
@@ -50,18 +50,24 @@ According to [coingecko](https://www.coingecko.com/en), there are currently more
 
 As cryptocurrency networks are so hard to make from scratch, only a few dozen cryptocurrencies are actually coins (e.g. Bitcoin, Ethereum, Ripple, etc). The rest are **cryptocurrency tokens**.
 
-The most important thing to remember about cryptocurrency tokens is that a lot of them are nothing more than scams. This is primarily because cryptocurrency tokens are so easy to create.
+Given how easy it is to create cryptocurrency tokens, a lot of them are created to scam people (e.g. pump-and-dump schemes). Therefore, it is important to learn how to spot scam tokens when you see one.
 
-### 💰Explaining Cryptocurrency Price And Value💰
+### 0.1.3 💰Explaining Cryptocurrency Price And Value💰
 
-What makes cryptocurrencies valuable? For the case of Bitcoin (BTC), some says it has an economic profile to gold. It has a maximum supply and only a small amount of BTC is created each day, and that amount is cut in half every 4 years.
+What makes cryptocurrencies valuable? For the case of Bitcoin (BTC), some says it has an economic profile to gold. It has a maximum supply and only a small amount of BTC is created each day, and that amount is cut in half every 4 years. It is akin to other 'store of value' commodities because they cam retain value over long time frames due to their relative scarcity.
+
+For example, the [Stock-to-Flow Model](https://www.lookintobitcoin.com/charts/stock-to-flow-model/) created by [Plan B](https://twitter.com/100trillionUSD) values Bitcoin like a commodity, and the model has been able to predict BTC price trends.
 
 
-## Optional esources
+Besides, we can also value cryptocurrencies with network valuation techniques.
+In 2017, The co-founder of FundStrat Tom Lee announced a pricing model for Bitcoin [(source)](https://www.businessinsider.com/bitcoin-price-movement-explained-by-one-equation-fundstrat-tom-lee-metcalf-law-network-effect-2017-10). The model explained 94% of the variability of Bitcoin’s price in the previous 4 years with a high degree of confidence around the variables. This model was based on [Metcalfe's law](https://en.wikipedia.org/wiki/Metcalfe%27s_law), which says the value of a network is proportional to the square of the number of users on the network.
+
+As the number of Bitcoin users surges, we can see
+## Optional resources
 
 for learning more about different cryptocurrencies:
 
-- [Youtube Channel: Coin Bureau](https://www.youtube.com/playlist?list=PLk1ALX7IOH_npyk1W_88gxTDpTEfZg_Og)
+- [YouTube Channel: Coin Bureau](https://www.youtube.com/playlist?list=PLk1ALX7IOH_npyk1W_88gxTDpTEfZg_Og)
 
 - [CoinDesk](https://www.coindesk.com/learn)
 
@@ -76,15 +82,15 @@ For those who are interested in the technology behind cryptocurrencies, here are
 <div style="page-break-after: always;"></div>
 
 
-# 2. What is trading?
+# 0.2 What is trading?
 
 *Credit: This part is based on articles from [investopedia](https://www.investopedia.com/trading-skills-and-essentials-4689654)*
 
 Trading involves frequent transactions, such as the buying and selling of stocks, commodities, currency pairs, or other instruments.
 
-The goal is to generate returns that outperform **buy-and-hold investing** (in the cryto world, this is called [HODLing](https://www.investopedia.com/terms/h/hodl.asp)). While investors may be content with annual returns of 10% to 15%, traders might seek a 10% return each month. Trading profits are generated by **buying at a lower price and selling at a higher price** within a relatively short period of time. The reverse also is true: trading profits can be made by **selling at a higher price and buying to cover at a lower price** (known as "**selling short**") to profit in falling markets.
+The goal is to generate returns that outperform **buy-and-hold investing** (in the crypto world, this is called [HODLing](https://www.investopedia.com/terms/h/hodl.asp)). While investors may be content with annual returns of 10% to 15%, traders might seek a 10% return each month. Trading profits are generated by **buying at a lower price and selling at a higher price** within a relatively short period of time. The reverse also is true: trading profits can be made by **selling at a higher price and buying to cover at a lower price** (known as "**selling short**") to profit in falling markets.
 
-## Trading vs Investing
+## 0.2.1 Trading vs Investing
 
 from [Investopedia](https://www.investopedia.com/ask/answers/12/difference-investing-trading.asp),
 > Investing and trading are two very different methods of attempting to profit in the financial markets. Both investors and traders seek profits through market participation. In general, investors seek **larger returns over an extended period** through buying and holding. Traders, by contrast, take advantage of both rising and falling markets to **enter and exit positions over a shorter time frame, taking smaller, more frequent profits.**
@@ -97,20 +103,10 @@ Traders generally fall into these categories:
 - **Technical Trading**:
     - Technical traders focus on charts and graphs. They analyze lines on stock or index graphs for signs of convergence or divergence that might indicate buy or sell signals.
 
-And one of these 3 categories in terms of trading frequency:
-
-- **Swing Trader**:
-    - Positions are held from **days to weeks**.
-- **Day Trader**:
-    - Positions are **held throughout the day** only with no overnight positions.
-- **Scalp Trader**:
-    - A scalper makes dozens or hundreds of trades per day in an attempt to "scalp" a small profit from each trade by exploiting the [**bid-ask spread**](https://www.investopedia.com/terms/b/bid-askspread.asp).
-    - Positions are held for **seconds to minutes** with no overnight positions.
-
 
 The key takeaway is that trading involves short-term strategies to maximize returns daily, monthly, or quarterly.
 
-## Technical Analysis vs Fundamental Analysis
+## 0.2.2 Technical Analysis vs Fundamental Analysis
 
 Technical Analysis is based on **human psychology**, namely emotions like **fear** and **greed**. It posits that these emotions are ultimately what **drive prices up or down**, and that these emotions **create visible patterns which repeat themselves**. This means that with the right methodology, the future price action of an asset can be **predicted using technical analysis.**
 
@@ -125,7 +121,7 @@ Given that the average cryptocurrency trader is **irrational**, many believe tha
 <div style="page-break-after: always;"></div>
 
 
-## 3. Trading cryptocurrencies
+## 0.3 Trading cryptocurrencies
 Although the cryptocurrency market is relatively new, it has experienced significant volatility due to huge amounts of short-term speculative interest. Such volatility makes the crypto market attractive for traders.
 
 The video below explains crypto trading in plain words.
@@ -145,7 +141,7 @@ The video below explains crypto trading in plain words.
 <div style="page-break-after: always;"></div>
 
 
-## 4. Algorithmic Trading
+## 0.4 Algorithmic Trading
 
 from [investopedia](https://www.investopedia.com/articles/active-trading/101014/basics-algorithmic-trading-concepts-and-examples.asp):
 
@@ -153,7 +149,7 @@ from [investopedia](https://www.investopedia.com/articles/active-trading/101014/
 
 > The defined sets of instructions are based on timing, price, quantity, or any mathematical model. Apart from profit opportunities for the trader, algo-trading renders markets more liquid and trading more systematic by ruling out the impact of human emotions on trading activities.  
 
-### Benefits of Algorithmic Trading
+### 0.4.1 Benefits of Algorithmic Trading
 
 from [investopedia](https://www.investopedia.com/articles/active-trading/101014/basics-algorithmic-trading-concepts-and-examples.asp):
 Algotrading provides the following benefits:
@@ -182,4 +178,18 @@ This video explains algorithmic trading and outlines how to learn algorithmic tr
 ## Next up:
 You will start learning python programming in the next Module, including the basics object-oriented programming as well.
 
-[Module 1 - Overview](<../Module 1 - Programming Technology/Module 1 - Overview.md>)
+[Module 1 - Overview](<../Module 1 - Programming Technology/Module_1_Overview.md>)
+
+## references
+
+- [YouTube Channel: Coin Bureau](https://www.youtube.com/playlist?list=PLk1ALX7IOH_npyk1W_88gxTDpTEfZg_Og)
+- [Stock-to-Flow Model - Look into Bitcoin](https://www.lookintobitcoin.com/charts/stock-to-flow-model/)
+- [Analyst says 94% of bitcoin's price movement over the past 4 years can be explained by one equation - Business Insider](https://www.businessinsider.com/bitcoin-price-movement-explained-by-one-equation-fundstrat-tom-lee-metcalf-law-network-effect-2017-10)
+- [Metcalfe's law - Wikipedia](https://en.wikipedia.org/wiki/Metcalfe%27s_law)
+- [CoinDesk](https://www.coindesk.com/learn)
+- [How does a blockchain work - Simply Explained](https://www.youtube.com/watch?v=SSo_EIwHSd4)
+- [But how does bitcoin actually work? - 3Blue1Brown](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
+- [Coingecko](https://www.coingecko.com/en)
+- [investopedia](https://www.investopedia.com/)
+- [Bitcoin Trading for Beginners (A Guide in Plain English) - 99Bitcoins](https://www.youtube.com/watch?v=c7VH96My_3I)
+- [What is Algorithmic Trading & How to Get Started - TradeOptionsWithMe](https://www.youtube.com/watch?v=f911dDCELX4)

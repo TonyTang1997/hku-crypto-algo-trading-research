@@ -22,24 +22,6 @@ None
 - learning about `string`, `list`, `tuple` and `dictionary`
 - learning how to import external libraries
 
-
-## External Links
-
-1. https://www.kaggle.com/learn/python
-	- You will be learning the basics of python from the tutorials on [Kaggle](https://www.kaggle.com), a pupular platform for data science competitions and also a source of useful datasets. Catered towards data science (which is relevant to algotrading), Kaggle will be main learning resource for this module as the tutorials are interactive and filled with examples. You will also get to try out some exercises inside Kaggle notebooks after learning each subtopic.
-
-2. [How to teach yourself hard things](https://jvns.ca/blog/2018/09/01/learning-skills-you-can-practice/)
-3. [f-strings](https://realpython.com/python-f-strings/)
-4. [Python Crash Course 2nd Edition Cheatsheets](https://ehmatthes.github.io/pcc_2e/cheat_sheets/cheat_sheets/)
-5.  [datetime](https://www.freecodecamp.org/news/how-to-use-timedelta-objects-in-python/)
-6. [How to download and install Python Packages and Modules with Pip](https://www.youtube.com/watch?v=jnpC_Ib_lbc)
-7. [Beginner resources - Python resources for everybody](https://learnbyexample.github.io/py_resources/beginners.html)
-8. ["Think Python"](https://greenteapress.com/wp/think-python/)
-9. [Programming with Mosh - Python for Beginners [Full Course]](https://www.youtube.com/watch?v=_uQrJ0TkZlc)
-
-
-
-
 ## Learning Programming
 It can take months or years to become proficient in basic programming. Many times, you'll need to review lessons several times. Programming also necessitates hands-on expertise; instead of reading/watching the examples, actively follow along on your computer. Learning programming is similar to learning how to drive a car or doing physical fitness exercises. it is not possible to attain the skills solely by reading about it and/or viewing videos.
 
@@ -47,7 +29,13 @@ You are recommended to read this article: [How to teach yourself hard things](ht
 
 Solving practice problems is very useful to review your understanding. After familiarizing with the basics, try experimenting with your newly acquired skills. If you get stuck, you can search online/documentation/books for those specific problems (go to the [Optional Resources](<## Optional Resources>) below for more), and if that fails, you can ask us for help.
 
+## The Tutorial
 
+You will be learning the basics of python from the tutorials on [Kaggle](https://www.kaggle.com/learn/python), a popular platform for data science competitions and also a source of useful datasets. Catered towards data science (which is relevant to algotrading),
+
+Kaggle will be main learning resource for this module as the tutorials are interactive and filled with examples. You will also get to try out some exercises inside Kaggle notebooks after learning each subtopic.
+
+The following content is the summary of the Kaggle chapters. You are advised to finish the entire kaggle tutorial first before referring to the below summary as a refresher.
 
 ## Overview
 1.  [Syntax](<### 1. Syntax >)
@@ -65,12 +53,12 @@ Below is the summary of the content covered in the [Kaggle](https://www.kaggle.c
 
 ---
 
-### 1. Syntax
+### 1.1.1 Syntax
 
 [cheatsheet](https://drive.google.com/file/d/1xDrV2ugdKPQWpEsJGhfrjD3oES2QZ0GH/view?usp=sharing)
 
 - `print("Strings are enclosed by double or single quotation marks")`
-- arithmetics
+- arithmetic
 
 | Operator     | Name    | Description |       
 |--------------|----------------|--------------------------------------------------------|
@@ -90,7 +78,7 @@ Below is the summary of the content covered in the [Kaggle](https://www.kaggle.c
 ---
 
 
-### 2. Functions
+### 1.1.2 Functions
 
 [cheatsheet](https://drive.google.com/file/d/17YNfbkFalRg6BtXAX-914FmupmzwEk7P/view?usp=sharing)
 
@@ -115,7 +103,7 @@ In the above example, `10` is the argument, `num` is the parameter
 ---
 
 
-### 3. Booleans & Conditions
+### 1.1.3 Booleans & Conditions
 [(cheatsheet)](https://drive.google.com/file/d/1RNnicY97CE4PW1QP2qrA67LtqY5gKXft/view?usp=sharing)
 > If statements are used to test for particular conditions and respond appropriately.
 
@@ -134,7 +122,7 @@ In the above example, `10` is the argument, `num` is the parameter
 ---
 
 
-### 4. Lists
+### 1.1.4 Lists
 [(cheatsheet)](https://drive.google.com/file/d/1N_4crYubJg7d87tn1oJs3KwGGmd0t-Oy/view?usp=sharing)
 
 > A list stores a series of items in a particular order. You access items using an **index**, or within a **loop**.
@@ -150,7 +138,7 @@ In the above example, `10` is the argument, `num` is the parameter
 
 ---
 
-### 5. Loops and List comprehension
+### 1.1.5 Loops and List comprehension
 
 [(cheatsheet)](https://drive.google.com/file/d/1RNnicY97CE4PW1QP2qrA67LtqY5gKXft/view?usp=sharing)
 
@@ -164,7 +152,7 @@ can't know ahead of time how many times a loop should run.
 
 ---
 
-### 6. Strings and dictionaries
+### 1.1.6 Strings and dictionaries
 #### Strings
 > A string is a series of characters, surrounded by single or double quotes.
 
@@ -192,7 +180,7 @@ can't know ahead of time how many times a loop should run.
 - [Exercises](https://runestone.academy/runestone/books/published/thinkcspy/Dictionaries/Exercises.html)
 ---
 
-### 7. Working with External Libraries
+### 1.1.7 Working with External Libraries
 - `import __ as _`
 - `from __ import *`
 - importing `math` and `numpy`
@@ -201,6 +189,7 @@ can't know ahead of time how many times a loop should run.
    - The datetime library will be particularly useful when we have to deal with time later on Quantconnect
 
 #### installing python libraries with `pip`
+In module 2, you will have to install machine learning and data science libraries. Here's how to do it.
 - [How to download and install Python Packages and Modules with Pip](https://www.youtube.com/watch?v=jnpC_Ib_lbc)
 ---
 
@@ -231,3 +220,19 @@ Beginners may have trouble dealing with exceptions and errors. Here is a handy f
 ## Next Up:
 
 You will learn [Object Oriented Programming](<../Module 1 - Programming Technology/Module_1b_Object_Oriented_Programming.md>) in Python 3.
+
+---
+
+## References
+
+- [Python tutorials - Kaggle](https://www.kaggle.com/learn/python)
+- [How to teach yourself hard things](https://jvns.ca/blog/2018/09/01/learning-skills-you-can-practice/)
+- [f-strings](https://realpython.com/python-f-strings/)
+- [Python Crash Course 2nd Edition Cheatsheets](https://ehmatthes.github.io/pcc_2e/cheat_sheets/cheat_sheets/)
+- [datetime - freeCodeCamp](https://www.freecodecamp.org/news/how-to-use-timedelta-objects-in-python/)
+- [How to download and install Python Packages and Modules with Pip](https://www.youtube.com/watch?v=jnpC_Ib_lbc)
+- [Beginner resources - Python resources for everybody](https://learnbyexample.github.io/py_resources/beginners.html)
+- [How to Think Like a Computer Scientist: Interactive Edition](https://runestone.academy/runestone/books/published/thinkcspy/index.html)
+- ["Think Python"](https://greenteapress.com/wp/think-python/)
+- [Programming with Mosh - Python for Beginners [Full Course]](https://www.youtube.com/watch?v=_uQrJ0TkZlc)
+- [Common beginner problems - python for biologists](https://pythonforbiologists.com)

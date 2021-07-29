@@ -15,31 +15,31 @@ This README provides a general picture of the upcoming tutorials aimed at equipp
 
 This module covers basic knowledge of cryptocurrency, trading and algorithmic trading.
 
-- 0.1. What is a cryptocurrency?
-- 0.2. What is trading?
-- 0.3. Why trade cryptocurrency?
-- 0.4. Algorithmic trading
+- 0.1 What is a cryptocurrency?
+- 0.2 What is trading?
+- 0.3 Why trade cryptocurrency?
+- 0.4 Algorithmic trading
 
-### [Module 1 - Programming Technology](<./tutorials/Module 1 - Programming Technology/Module 1 - Overview.md>)
+### [Module 1 - Programming Technology](<./tutorials/Module 1 - Programming Technology/Module_1_Overview.md>)
 
 This module covers all the necessary programming knowledge in python for the students to create their own trading algorithms.
 
-##### [Basic Python](<./tutorials/Module 1 - Programming Technology/Module_1a_Python_Basics.md>)
-- 1.1. Syntax
-- 1.2. Functions
-- 1.3. Booleans & Conditions
-- 1.4. Lists
-- 1.5. Loops and List comprehension
-- 1.6. Strings and dictionaries
-- 1.7. Working with External Libraries
+##### [1.1 Basic Python](<./tutorials/Module 1 - Programming Technology/Module_1.1_Python_Basics.md>)
+- 1.1.1 Syntax
+- 1.1.2 Functions
+- 1.1.3 Booleans & Conditions
+- 1.1.4 Lists
+- 1.1.5 Loops and List comprehension
+- 1.1.6 Strings and dictionaries
+- 1.1.7 Working with External Libraries
 
-##### [Object Oriented Programming](<./tutorials/Module 1 - Programming Technology/Module_1b_Object_Oriented_Programming.md>)
+##### [1.2 Object Oriented Programming](<./tutorials/Module 1 - Programming Technology/Module_1.2_Object_Oriented_Programming.md>)
 
-- 1.8.  Classes
-- 1.9.  Constructors and Instances
-- 1.10. Methods
-- 1.11. Objects as Arguments and Parameters
-- 1.12. Inheritance (Optional)
+- 1.2.1 Classes
+- 1.2.2 Constructors and Instances
+- 1.2.3 Methods
+- 1.2.4 Objects as Arguments and Parameters
+- 1.2.5 Inheritance (Optional)
 
 ### [Module 2 - Data Science and Machine Learning](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%202%20-%20Data%20Science%20and%20Machine%20Learning)
 

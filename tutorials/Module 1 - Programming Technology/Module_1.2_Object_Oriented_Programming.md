@@ -25,10 +25,10 @@ Learning how to:
 - Use **attributes** and **methods** to define the properties and behaviors of an object
 - Use **inheritance** to create **child classes** from a **parent class**
 
-## External Links
-### The Tutorial
 
-The tutorial will be mainly based on these 2 sources.
+## The Tutorial
+
+The tutorial will be mainly based on these 2 sources. For this chapter, you cam either go through these sources yourself first or just go through the content here and click on the links in each subtopic as you encounter them.
 
 [freeCodeCamp - scientific-computing-with-python](https://www.freecodecamp.org/learn/scientific-computing-with-python#python-for-everybody) (4 videos)
 
@@ -52,16 +52,7 @@ The tutorial will be mainly based on these 2 sources.
 
 Same as the last chapter, a [cheatsheet](./cheatsheets/beginners_python_cheat_sheet_oop.pdf) from [Python Crash Course 2nd Edition](https://ehmatthes.github.io/pcc_2e/cheat_sheets/cheat_sheets/) is provided (Credit goes to the author [Eric Matthes](https://ehmatthes.github.io/))
 
-### Misc
-- [object-oriented programming](http://en.wikipedia.org/wiki/Object-oriented_programming)
-- [procedural programming](http://en.wikipedia.org/wiki/Procedural_programming)
-- [QuantConnect Docs](https://www.quantconnect.com/docs/algorithm-reference/trading-and-orders#Trading-and-Orders-Tracking-Order-Events)
-- [GeeksforGeeks](https://www.geeksforgeeks.org/inheritance-in-python/)
-- [Real Python - Object-Oriented Programming (OOP) in Python 3](https://realpython.com/python3-object-oriented-programming/)
-
 ---
-
-
 
 ## Overview
 1.  [Introduction](<## 1. Introduction>)
@@ -74,7 +65,7 @@ Same as the last chapter, a [cheatsheet](./cheatsheets/beginners_python_cheat_sh
 ---
 
 
-## 1. Introduction
+## 1.2.1 Introduction
 [thinkcspy - object-oriented programming](https://runestone.academy/runestone/books/published/thinkcspy/ClassesBasics/Objectorientedprogramming.html)
 
 Python is an **object-oriented programming language**. That means it provides features that support [object-oriented programming](http://en.wikipedia.org/wiki/Object-oriented_programming) (**OOP**).
@@ -92,7 +83,7 @@ Up to now, some of the programs we have been writing use a [procedural programmi
 
 ---
 
-## 2. Classes
+## 1.2.2 Classes
 
 Jargon alert: There will be quite some jargons in this chapter. For a quick recap, please visit the [Glossary](https://runestone.academy/runestone/books/published/thinkcspy/ClassesBasics/Glossary.html)
 
@@ -116,7 +107,7 @@ A class defines the *general behavior that a whole category of objects can have*
 - **Inheritance**: The ability to extend a class to make a new class
 
 ---
-## 3. Constructors and Instances
+## 1.2.3 Constructors and Instances
 
 ### Instances
 [object lifecycle](https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/object-lifecycle)
@@ -174,13 +165,13 @@ class SampleAlgorithm(QCAlgorithm):
 ```
 
 `Initialize(self)` is the constructor of the `SampleAlgorithm` class we defined.
-- Note that there is no need to define `__init__()` for algorithms in QuantConnect.
+- Note that instead of defining `__init__()`, `Initialize(self)` is defined for algorithms in QuantConnect.
 
 `self.SetCash` is a method from the `QCalgorithm` class, the parent class `SampleAlgorithm` inherits from.
 - methods and Inheritance will be explained below.
 
 ---
-## 4. Methods
+## 1.2.4 Methods
 [thinkcspy - 17.6. Adding Other Methods to our Class](https://runestone.academy/runestone/books/published/thinkcspy/ClassesBasics/AddingOtherMethodstoourClass.html)
 
 To reiterate, classes are like blueprints for object, just like how a rocket is made from referring to its blueprint according to the plans. It has all the properties mentioned in the plan, and behaves accordingly.
@@ -217,7 +208,7 @@ class SampleAlgorithm(QCAlgorithm):
 In our `SampleAlgorithm`, we expect the algorithm to perfect some actions when it is fed data or when it ends. So we define 2 methods that will be called when those conditions are met. On QuantConnect, said logic and conditions have already been implemented on their platform so you just have to focus on designing what the algorithms would do under these situations later.
 
 ---
-## 5. Objects as Arguments and Parameters
+## 1.2.5 Objects as Arguments and Parameters
 
 [thinkcspy - 17.7. Objects as Arguments and Parameters](https://runestone.academy/runestone/books/published/thinkcspy/ClassesBasics/ObjectsasArgumentsandParameters.html#objects-as-arguments-and-parameters "Permalink to this headline")
 
@@ -250,7 +241,7 @@ Each order made by the algorithm generates order events, which are passed to the
 > Forgot about how .format() works? Revisit the string subtopic from the last chapter [Module 1a - Python Basics](./Module_1a_Python_Basics.md)
 
 ---
-### 6. Inheritance (Optional)
+### 1.2.6 Inheritance (Optional)
 
 You are not required to dig too deeply into inheritance. Only basic understanding of inheritance is required in order to for you to use QuantConnect.
 
@@ -284,3 +275,19 @@ The  `SampleAlgorithm` we have seen earlier inherits from the `QCalgorithm` clas
 ## Next up:
 You will be learning the  data science libraries and basic machine learning in Python
 - [Module 2 - Data Science and Machine Learning](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%202%20-%20Data%20Science%20and%20Machine%20Learning)
+
+---
+## References
+
+
+- [Python Objects](https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/python-objects)
+- [An example class](https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/objects-a-sample-class)
+- [object lifecycle](https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/object-lifecycle)
+- [Object inheritance](https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/objects-inheritance)
+- [How to Think Like a Computer Scientist: Interactive Edition - Chapter 17](https://runestone.academy/runestone/books/published/thinkcspy/ClassesBasics/Objectorientedprogramming.html)
+- [Python Crash Course 2nd Edition](https://ehmatthes.github.io/pcc_2e/cheat_sheets/cheat_sheets/)
+- [object-oriented programming](http://en.wikipedia.org/wiki/Object-oriented_programming)
+- [procedural programming](http://en.wikipedia.org/wiki/Procedural_programming)
+- [QuantConnect Docs](https://www.quantconnect.com/docs/algorithm-reference/trading-and-orders#Trading-and-Orders-Tracking-Order-Events)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/inheritance-in-python/)
+- [Real Python - Object-Oriented Programming (OOP) in Python 3](https://realpython.com/python3-object-oriented-programming/)
