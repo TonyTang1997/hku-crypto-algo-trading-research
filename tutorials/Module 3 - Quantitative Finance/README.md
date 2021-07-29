@@ -14,15 +14,15 @@ In this section, we are going to cover the following topics about quantative fin
 
   * [link to quantconnect tutorial](https://www.quantconnect.com/tutorials/introduction-to-financial-python/rate-of-return,-mean-and-variance)
 
-  * [link to tutorial video](https://drive.google.com/file/d/1kB_RyVsdOWsHxh7lItMUlfY716g0Kc9A/view?usp=sharing)
+  * [link to tutorial video](https://drive.google.com/file/d/1Nmor_GDW4YHVP2FafiGGUPASm0QVcsVG/view?usp=sharing)
 
 - 3.2. Evaluation metrics for portfolio
 
   * Evaluation metrics that will be used in competitions and examples of calculating them
 
-  * [link to tuorial notebook](https://colab.research.google.com/drive/1E9TIJSrI0Rcb8TOC0btwkNQhQywshd8N?usp=sharing)
+  * [link to tutorial notebook](https://colab.research.google.com/drive/1E9TIJSrI0Rcb8TOC0btwkNQhQywshd8N?usp=sharing)
 
-  * [link to tutorial video](https://drive.google.com/file/d/1kB_RyVsdOWsHxh7lItMUlfY716g0Kc9A/view?usp=sharing)
+  * [link to tutorial video](https://drive.google.com/file/d/1K7YYlDTH7RR8UYH6QUyS5yWkDE0apJz1/view?usp=sharing)
 
 - 3.3. Working with Quantconnect platform
   
