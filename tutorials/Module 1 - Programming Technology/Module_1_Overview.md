@@ -8,6 +8,9 @@ This module serves to give you an introduction to basic python, and to lead you 
 
 **Note that there are quite some optional external references included in this Module, feel free to go through or skip them at your own interest**
 
+## Link to video
+[video link](https://drive.google.com/file/d/1fSZWMmj8I5qEJ2SegIIacIOHpzxbjkUr/view?usp=sharing)
+
 ## Estimated Time to Finish:
 12~15 hours (excluding Optional Materials)
 
@@ -24,8 +27,6 @@ Please refer to the following guides on how to install Python 3 on different pla
 - [Linux](https://www.youtube.com/watch?v=5jrSYA_Ki00)
 
 ## Study Roadmap
-
-### Programming technology
 
 #### Python basics
 [Module 1.1 - Python Basics](<./Module_1.1_Python_Basics.md>)

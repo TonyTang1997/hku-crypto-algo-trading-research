@@ -24,6 +24,7 @@ This module covers basic knowledge of cryptocurrency, trading and algorithmic tr
 
 This module covers all the necessary programming knowledge in python for the students to create their own trading algorithms.
 
+
 ##### [1.1 Basic Python](<./tutorials/Module 1 - Programming Technology/Module_1.1_Python_Basics.md>)
 - 1.1.1 Syntax
 - 1.1.2 Functions
