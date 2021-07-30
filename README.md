@@ -46,7 +46,7 @@ This module covers all the necessary programming knowledge in python for the stu
 
 This module covers basic data science and machine learning techniques with python, which can be applied to develop and enhance the trading algorithms.
 
-- [Pandas](tutorials/Module%202%20-%20Data%20Science%20and%20Machine%20Learning/2.1%20Pandas.md)
+- [2.1 Pandas](tutorials/Module%202%20-%20Data%20Science%20and%20Machine%20Learning/2.1%20Pandas.md)
     - 2.1.1 Creating, Reading and Writing
         - Tutorial
         - Exercise (example)
@@ -55,7 +55,7 @@ This module covers basic data science and machine learning techniques with pytho
     - 2.1.4 Grouping and Sorting
     - 2.1.5 Data Types and Missing Values
     - 2.1.6 Renaming and Combining
-- [Machine Learning](tutorials/Module%202%20-%20Data%20Science%20and%20Machine%20Learning/2.2%20Introduction%20to%20Machine%20Learning.md)
+- [2.2 Machine Learning](tutorials/Module%202%20-%20Data%20Science%20and%20Machine%20Learning/2.2%20Introduction%20to%20Machine%20Learning.md)
     - 2.2.1 How Models Work
     - 2.2.2 Basic Data Exploration
     - 2.2.3 Your First Machine Learning Model
