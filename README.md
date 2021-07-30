@@ -46,23 +46,23 @@ This module covers all the necessary programming knowledge in python for the stu
 
 This module covers basic data science and machine learning techniques with python, which can be applied to develop and enhance the trading algorithms.
 
-- [2.1 Pandas](tutorials/Module%202%20-%20Data%20Science%20and%20Machine%20Learning/2.1%20Pandas.md)
-    - 2.1.1 Creating, Reading and Writing
-        - Tutorial
-        - Exercise (example)
-    - 2.1.2 Indexing, Selecting & Assigning
-    - 2.1.3 Summary Functions and Maps
-    - 2.1.4 Grouping and Sorting
-    - 2.1.5 Data Types and Missing Values
-    - 2.1.6 Renaming and Combining
-- [2.2 Machine Learning](tutorials/Module%202%20-%20Data%20Science%20and%20Machine%20Learning/2.2%20Introduction%20to%20Machine%20Learning.md)
-    - 2.2.1 How Models Work
-    - 2.2.2 Basic Data Exploration
-    - 2.2.3 Your First Machine Learning Model
-    - 2.2.4 Model Validation
-    - 2.2.5 Underfitting and Overfitting
-    - 2.2.6 Random Forests
-    - 2.2.7 Machine Learning Competition
+##### [2.1 Pandas](tutorials/Module%202%20-%20Data%20Science%20and%20Machine%20Learning/2.1%20Pandas.md)
+- 2.1.1 Creating, Reading and Writing
+    - Tutorial
+    - Exercise (example)
+- 2.1.2 Indexing, Selecting & Assigning
+- 2.1.3 Summary Functions and Maps
+- 2.1.4 Grouping and Sorting
+- 2.1.5 Data Types and Missing Values
+- 2.1.6 Renaming and Combining
+##### [2.2 Machine Learning](tutorials/Module%202%20-%20Data%20Science%20and%20Machine%20Learning/2.2%20Introduction%20to%20Machine%20Learning.md)
+- 2.2.1 How Models Work
+- 2.2.2 Basic Data Exploration
+- 2.2.3 Your First Machine Learning Model
+- 2.2.4 Model Validation
+- 2.2.5 Underfitting and Overfitting
+- 2.2.6 Random Forests
+- 2.2.7 Machine Learning Competition
 
 
 ### [Module 3 - Quantitative Finance](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%203%20-%20Quantitative%20Finance)
