@@ -75,7 +75,7 @@ This module covers basic quantitative finance knowledge, portfolio evaluation an
 
 ## Part 2: Crypto Algorithmic Trading Strategies
 
-### [Module 4 - Trading Strategies Development](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%204%20-%20Trading%20Strategies%20Development)
+### [Module 4 - Trading Strategies Development](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%204%20-%20Trading%20Strat)
 
 This module covers the implementation of six basic trading strategies which you can directly apply on quantconnect and further enhance them.
 
