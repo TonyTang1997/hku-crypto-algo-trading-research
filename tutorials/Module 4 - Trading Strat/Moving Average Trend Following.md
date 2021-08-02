@@ -20,9 +20,22 @@ Simple Moving Average (SMA) is the most basic form of a moving average which is 
 
 Definiton of arithmetic mean : the sum of a collection of numbers divided by the count of numbers in the collection.
 
-Simple Moving Average is easy to be implemented and understanded by traders while effective to smooth a raw price time series. However, it gives the same weightings to trade observations with different volume or occured at different time.
+Simple Moving Average is easy to be implemented and understanded by traders and effective to smooth a raw price time series. However, it gives the same weightings to trade observations with different volume or occured at different time.
 
-Volume Weighted Moving Average and Exponential Weighted Moving Average are enchancement of SMA.
+Volume Weighted Moving Average and Exponentially Weighted Moving Average are enchancement of SMA.
 
 ## Volume Weighted Moving Average
+
+Volume Weighted Moving Average (VWMA) highlihgts the importance of different sizes by weighing based on the volume of each trade. Prices with more trading volume get greater weight than prices with fewer trading volume. 
+
+VWMA is calculated by summing up the dollars traded (prices multiplied by the volume of shares traded) and then dividing by the total volume of shares traded in a rolling window.
+
+The ratioale behind is that orders with large sizes are executed by institutions or multiple traders with same views on the market so that these trades would move the market more. When the sizes of orders are the same or similar, the values of SMA and VWMA are close to each other. 
+
+
+## Exponentially Weighted Moving Average
+
+Exponential Weighted Moving Average (EMA) places larger weights on recent observations. EWMA reponds to recent price changes more sensitively than SMA, which allocates equal weightings to all observations in the period. 
+
+
 
