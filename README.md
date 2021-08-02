@@ -1,5 +1,5 @@
 ### Cryptocurrency Algorithmic Trading
-HKU-SCF FinTech Academy
+HKU FinTech Competiton
 
 # Cryptocurrency Algorithmic Trading
 
@@ -20,7 +20,7 @@ This module covers basic knowledge of cryptocurrency, trading and algorithmic tr
 - 0.3 Why trade cryptocurrency?
 - 0.4 Algorithmic trading
 
-### [Module 1 - Programming Technology](<./tutorials/Module 1 - Programming Technology/Module_1_Overview.md>)
+### [Module 1 - Programming Technology](<./tutorials/Module 1 - Programming Technology/README.md>)
 
 This module covers all the necessary programming knowledge in python for the students to create their own trading algorithms.
 
@@ -75,7 +75,7 @@ This module covers basic quantitative finance knowledge, portfolio evaluation an
 
 ## Part 2: Crypto Algorithmic Trading Strategies
 
-### [Module 4 - Trading Strategies Development](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%204%20-%20Trading%20Strat)
+### [Module 4 - Trading Strategies Development](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/tutorials/Module%204%20-%20Trading%20Strat/README.md)
 
 This module covers the implementation of six basic trading strategies which you can directly apply on quantconnect and further enhance them.
 
