@@ -106,7 +106,7 @@ Traders generally fall into these categories:
 
 The key takeaway is that trading involves short-term strategies to maximize returns daily, monthly, or quarterly.
 
-## 0.2.2 Technical Analysis vs Fundamental Analysis
+## 0.2.2 Technical Analysis vs Fundamental Analysis of cryptocurrencies
 
 Technical Analysis is based on **human psychology**, namely emotions like **fear** and **greed**. It posits that these emotions are ultimately what **drive prices up or down**, and that these emotions **create visible patterns which repeat themselves**. This means that with the right methodology, the future price action of an asset can be **predicted using technical analysis.**
 
