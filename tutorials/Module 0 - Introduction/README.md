@@ -178,7 +178,7 @@ This video explains algorithmic trading and outlines how to learn algorithmic tr
 ## Next up:
 You will start learning python programming in the next Module, including the basics object-oriented programming as well.
 
-[Module 1 - Overview](<../Module 1 - Programming Technology/Module_1_Overview.md>)
+[Module 1 - Overview](<../Module 1 - Programming Technology/README.md>)
 
 ## references
 
