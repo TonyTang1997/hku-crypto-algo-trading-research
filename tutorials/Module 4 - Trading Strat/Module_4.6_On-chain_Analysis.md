@@ -31,9 +31,9 @@ In this module, we will go over Hash Rate and Network Value of Bitcoin and how t
 
 
 ## Pre-requisites
-[Module 0.1: What is a cryptocurrency?](<../Module 0 - Introduction/README.md>)
-[Module 0.2.2: Technical Analysis vs Fundamental Analysis of Cryptocurrencies](<../Module 0 - Introduction/README.md>)
-[Module 4.1 Moving Average Trend Following](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/tutorials/Module%204%20-%20Trading%20Strat/Moving%20Average%20Trend%20Following.md)
+- [Module 0.1: What is a cryptocurrency?](<../Module 0 - Introduction/README.md>)
+- [Module 0.2.2: Technical Analysis vs Fundamental Analysis of Cryptocurrencies](<../Module 0 - Introduction/README.md>)
+- [Module 4.1 Moving Average Trend Following](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/tutorials/Module%204%20-%20Trading%20Strat/Module_4.1_Moving_Average_Trend_Following.md)
 
 ## Estimated Time to Finish:
 1 - 1.5 hour (excluding Optional Materials)
