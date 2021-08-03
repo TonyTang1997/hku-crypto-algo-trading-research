@@ -7,18 +7,25 @@ HKU FinTech Competition
 ## Overview
 Machine learning is the study of computer algorithms that improve automatically through experience and by the use of data. It is seen as a part of artificial intelligence.
 
+---
+
 ## Pre-requisites
 - Python Basics
 - Object-oriented Programming
 - Pandas
 
+---
+
 ## Estimated Time to Finish:
 3 hours
+
+---
 
 ## Main Learning Objectives:
 - Learn the core ideas in machine learning
 - How to build your first models
 
+---
 ## Tutorials
 
 In this section, we are going to cover the following topics about Machine Learning.
@@ -58,6 +65,13 @@ In this section, we are going to cover the following topics about Machine Learni
     * [link to the Kaggle page](https://www.kaggle.com/alexisbcook/machine-learning-competitions)
     * [link to tutorial video](https://drive.google.com/file/d/13vGHevT_24iZ6XbPvqNSBtjjBBqXMEoe/view?usp=sharing)
 
+---
+
+## Next Up:
+
+You will learn [Quantitative Finance](<../Module 3 - Quantitative Finance/README.md>) in the next section.
+
+---
 ## References
 
 - [ML tutorials - Kaggle](https://www.kaggle.com/learn/intro-to-machine-learning)

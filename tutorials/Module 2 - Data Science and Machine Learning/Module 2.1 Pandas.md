@@ -7,17 +7,22 @@ HKU FinTech Competition
 ## Overview
 Pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series.
 
+---
+
 ## Pre-requisites
 - Python Basics
 - Object-oriented Programming
 
+---
 ## Estimated Time to Finish:
 4 hours
 
+---
 ## Main Learning Objectives:
 - How to create and manipulate DataFrames
 - How to turn real-time data into codes
 
+---
 ## Tutorials
 
 In this section, we are going to cover the following topics about pandas
@@ -53,6 +58,12 @@ In this section, we are going to cover the following topics about pandas
     * [link to the Kaggle page](https://www.kaggle.com/residentmario/renaming-and-combining)
     * [link to tutorial video](https://drive.google.com/file/d/1ifNP8mXLPBrMARDhShwmyLV8UaZjARav/view?usp=sharing)
 
+---
+## Next Up:
+
+You will learn [Introduction to Machine Learning](<./Module 2.2 Introduction to Machine Learning.md>) in the next section.
+
+---
 ## References
 
 - [Pandas tutorials - Kaggle](https://www.kaggle.com/learn/pandas)
