@@ -1,5 +1,5 @@
 ### Cryptocurrency Algorithmic Trading
-HKU-SCF FinTech Academy
+HKU FinTech Competition
 <br><br>
 
 # <u>Module 1 Overview</u>  

@@ -1,6 +1,10 @@
-# Trading Stratgies Development
+### Cryptocurrency Algorithmic Trading
+HKU FinTech Competition
+<br><br>
 
-In this module, we have included six different trading stratgies with their quantconnect implementations for your reference.
+# Trading Strategies Development
+
+In this module, we have included six different trading strategies with their quantconnect implementations for your reference.
 
 ## Prerequisites:
 Module 0, 1, 2 and 3
@@ -10,12 +14,12 @@ Module 0, 1, 2 and 3
 
 ## Main Learning Objectives:
 
-- To understand the underlying rationale of different trading strategies 
+- To understand the underlying rationale of different trading strategies
 - To implement trading strategies on quantconnect
-- To anlayse backtesting results
-- To further enchance existing trading strategies
+- To analyze backtesting results
+- To further enhance existing trading strategies
 
-## Trading Stratgies 
+## Trading Strategies
 
 - 4.1. Moving Average Trend Following
 - 4.2. Bollinger Band Trend Following / Mean-reverting
