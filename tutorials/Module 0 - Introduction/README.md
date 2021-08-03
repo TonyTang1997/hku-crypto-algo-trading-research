@@ -19,10 +19,10 @@ This chapter will give an overview of cryptocurrencies and explain the motivatio
 
 
 ## Overview
-1. [What is a cryptocurrency?](<# 1. What is a cryptocurrency?>)
-2. [What is trading?](<# 2. What is trading?>)
-3. [Why trade cryptocurrency?](<## 3. Trading cryptocurrencies>)
-4. [Algoritmic trading](<## 4. Algorithmic Trading>)
+1. [What is a cryptocurrency?](<# 0.1 What is a cryptocurrency?>)
+2. [What is trading?](<# 0.2 What is trading?>)
+3. [Why trade cryptocurrency?](<## 0.3 Trading cryptocurrencies>)
+4. [Algoritmic trading](<## 0.4 Algorithmic Trading>)
 
 
 
