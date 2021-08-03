@@ -39,7 +39,7 @@ The following content is the summary of the Kaggle chapters. You are advised to 
 
 ## Overview
 1.  [Syntax](#111-syntax)
-2.  [Functions](<#112-functions)
+2.  [Functions](#112-functions)
 3.  [Booleans & Conditions](#113-booleans--conditions)
 4.  [Lists](#114-lists)
 5.  [Loops and List comprehension](#115-loops-and-list-comprehension)
