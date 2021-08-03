@@ -2,7 +2,7 @@
 HKU FinTech Competition
 <br><br>
 
-# Trading Strategies Development
+# <ins> Trading Strategies Development <ins/>
 
 In this module, we have included six different trading strategies with their quantconnect implementations for your reference.
 

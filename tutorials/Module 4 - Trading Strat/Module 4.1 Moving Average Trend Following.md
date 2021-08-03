@@ -1,4 +1,8 @@
-# Moving Average Trend Following
+### Cryptocurrency Algorithmic Trading
+HKU FinTech Competition
+<br><br>
+
+# <ins> Moving Average Trend Following <ins/>
 
 Moving Average is a family of most well-known technical indicators adopted by different traders.
 
@@ -35,4 +39,4 @@ The rationale behind is that orders with large sizes are executed by institution
 
 ## Exponentially Weighted Moving Average
 
-Exponential Weighted Moving Average (EMA) places larger weights on recent observations. EWMA responds to recent price changes more sensitively than SMA, which allocates equal weightings to all observations in the period. 
+Exponential Weighted Moving Average (EMA) places larger weights on recent observations. EWMA responds to recent price changes more sensitively than SMA, which allocates equal weightings to all observations in the period.

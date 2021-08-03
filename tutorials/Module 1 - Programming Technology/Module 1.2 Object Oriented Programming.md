@@ -2,7 +2,7 @@
 HKU FinTech Competition
 <br><br>
 
-# <u>Python Object-Oriented Programming</u>  
+# <ins> Python Object-Oriented Programming <ins/>
 
 **The QuantConnect (QC) examples can be ignored if you have not started reading the modules on quantconnect. You can return to this module and take a look at the QC examples later.**
 
@@ -55,12 +55,12 @@ Same as the last chapter, a [cheatsheet](./cheatsheets/beginners_python_cheat_sh
 ---
 
 ## Overview
-1.  [Introduction](<## 1. Introduction>)
-2.  [Classes](<## 2. Classes>)
-3.  [Constructors and Instances](<## 3. Constructors and Instances>)
-4.  [Methods](<## 4. Methods>)
-5.  [Objects as Arguments and Parameters](<## 5. Objects as Arguments and Parameters>)
-6. [Inheritance (Optional)](<### 6. Inheritance (Optional)>)
+1.  [Introduction](#121-introduction)
+2.  [Classes](#122-classes)
+3.  [Constructors and Instances](#123-constructors-and-instances)
+4.  [Methods](#124-methods)
+5.  [Objects as Arguments and Parameters](#125-objects-as-arguments-and-parameters)
+6. [Inheritance (Optional)](#126-inheritance-optional)
 
 ---
 
@@ -273,7 +273,7 @@ The  `SampleAlgorithm` we have seen earlier inherits from the `QCalgorithm` clas
 ---
 
 ## Next up:
-You will be learning the  data science libraries and basic machine learning in Python
+You will be learning the data science libraries and basic machine learning in Python
 - [Module 2 - Data Science and Machine Learning](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%202%20-%20Data%20Science%20and%20Machine%20Learning)
 
 ---

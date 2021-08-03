@@ -1,4 +1,8 @@
-# Machine Learning
+### Cryptocurrency Algorithmic Trading
+HKU FinTech Competition
+<br><br>
+
+# <ins> Machine Learning <ins/>
 
 ## Overview
 Machine learning is the study of computer algorithms that improve automatically through experience and by the use of data. It is seen as a part of artificial intelligence.
@@ -15,7 +19,7 @@ Machine learning is the study of computer algorithms that improve automatically 
 - Learn the core ideas in machine learning
 - How to build your first models
 
-## Tutorials 
+## Tutorials
 
 In this section, we are going to cover the following topics about Machine Learning.
 

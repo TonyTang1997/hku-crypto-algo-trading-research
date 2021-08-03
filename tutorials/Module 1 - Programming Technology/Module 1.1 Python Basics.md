@@ -2,7 +2,7 @@
 HKU FinTech Competition
 <br><br>
 
-# <ins>Python Basics<ins/>  
+# <ins> Basic Python <ins/>
 
 Python is a programming language named after the British comedy troupe [Monty Python](https://en.wikipedia.org/wiki/Monty_Python).
 In This chapter, we will cover the key Python skills you’ll need so you can start programming.
@@ -18,7 +18,7 @@ None
 3-5 hours (excluding Optional Materials)
 
 ## Main Learning Objectives:
-- learning the basic syntax of python, variables, functions, arithmetics
+- learning the basic syntax of python, variables, functions, arithmetic
 - learning about `string`, `list`, `tuple` and `dictionary`
 - learning how to import external libraries
 
@@ -38,13 +38,13 @@ Kaggle will be main learning resource for this module as the tutorials are inter
 The following content is the summary of the Kaggle chapters. You are advised to finish the entire kaggle tutorial first before referring to the below summary as a refresher.
 
 ## Overview
-1.  [Syntax](<### 1. Syntax >)
-2.  [Functions](<### 2. Functions>)
-3.  [Booleans & Conditions](<### 3. Booleans & Conditions>)
-4.  [Lists](<### 4. Lists >)
-5.  [Loops and List comprehension](<### 5. Loops and List comprehension>)
-6.  [Strings and dictionaries](<### 6. Strings and dictionaries>)
-7.  [Working with External Libraries](<### 7. Working with External Libraries>)
+1.  [Syntax](#111-syntax)
+2.  [Functions](<#112-functions)
+3.  [Booleans & Conditions](#113-booleans--conditions)
+4.  [Lists](#114-lists)
+5.  [Loops and List comprehension](#115-loops-and-list-comprehension)
+6.  [Strings and dictionaries](#116-strings-and-dictionaries)
+7.  [Working with External Libraries](#117-working-with-external-libraries)
 
 ---
 
@@ -219,7 +219,7 @@ Beginners may have trouble dealing with exceptions and errors. Here is a handy f
 
 ## Next Up:
 
-You will learn [Object Oriented Programming](<./Module_1.2_Object_Oriented_Programming.md>) in Python 3.
+You will learn [Object Oriented Programming](<./Module 1.2 Object Oriented Programming.md>) in Python 3.
 
 ---
 

@@ -1,7 +1,7 @@
 ### Cryptocurrency Algorithmic Trading
 HKU FinTech Competition
 <br><br>
-# <ins>Introduction to Cryptocurrencies and Algorithmic Trading </ins>
+# <ins> Module 0 - Introduction to Cryptocurrencies and Algorithmic Trading </ins/>
 
 This chapter will give an overview of cryptocurrencies and explain the motivation behind algorithmic trading cryptocurrencies. Different types of trading, including the difference between fundamental analysis and technical analysis will also be explained.
 

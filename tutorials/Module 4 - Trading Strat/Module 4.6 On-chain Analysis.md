@@ -1,11 +1,10 @@
-
 ### Cryptocurrency Algorithmic Trading
 HKU Fintech Competition
 <br><br>
 
 # WIP
 
-# <ins>On-chain analysis (Optional)<ins/>  
+# <ins> On-chain analysis (Optional) <ins/>
 
 This module is optional as on-chain analysis is for long term trading, which is not suitable for the competition. However, for those who want to dig deeper into the techniques of cryptocurrency trading, this module can help you learn about on-chain analysis, an unique type of fundamental analysis specific to cryptocurrencies.
 
@@ -102,7 +101,7 @@ NV = Market Capitalization
 TV = Daily on-chain Transaction Volume (in USD)
 
 
-Bitcoin's NVT ratio is calculated by dividing the Network Value (NV) (Market Capitalization) by the daily USD Transaction Volume transmitted through the blockchain (TV) and then smoothed out using a 2-week moving average or median. 
+Bitcoin's NVT ratio is calculated by dividing the Network Value (NV) (Market Capitalization) by the daily USD Transaction Volume transmitted through the blockchain (TV) and then smoothed out using a 2-week moving average or median.
 
 This is the same as dividing the bitcoin token supply by the daily BTC value sent on the blockchain.
 

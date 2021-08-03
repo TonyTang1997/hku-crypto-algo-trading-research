@@ -1,4 +1,8 @@
-# Pandas
+### Cryptocurrency Algorithmic Trading
+HKU FinTech Competition
+<br><br>
+
+# <ins> Pandas <ins/>
 
 ## Overview
 Pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series.
@@ -14,7 +18,7 @@ Pandas is a software library written for the Python programming language for dat
 - How to create and manipulate DataFrames
 - How to turn real-time data into codes
 
-## Tutorials 
+## Tutorials
 
 In this section, we are going to cover the following topics about pandas
 

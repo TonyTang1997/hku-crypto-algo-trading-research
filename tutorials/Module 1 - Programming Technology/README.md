@@ -2,7 +2,7 @@
 HKU FinTech Competition
 <br><br>
 
-# <u>Module 1 Overview</u>  
+# <ins> Module 1 - Programming Technology Overview <ins/>
 
 This module serves to give you an introduction to basic python, and to lead you into the realm of programming. Some topics related to python will be discussed, such as the libraries for data science and machine learning. This module provides a general picture of python, thereby supporting studies of examples in upcoming modules.
 
@@ -10,6 +10,7 @@ This module serves to give you an introduction to basic python, and to lead you 
 
 ## Link to video
 [video link](https://drive.google.com/file/d/1fSZWMmj8I5qEJ2SegIIacIOHpzxbjkUr/view?usp=sharing)
+- The video will briefly give you an overview of content in module 1, including how to use Kaggle notebooks to do the exercises in this module.
 
 ## Estimated Time to Finish:
 12~15 hours (excluding Optional Materials)
@@ -29,7 +30,7 @@ Please refer to the following guides on how to install Python 3 on different pla
 ## Study Roadmap
 
 #### Python basics
-[Module 1.1 - Python Basics](<./Module_1.1_Python_Basics.md>)
+[Module 1.1 - Python Basics](<./Module 1.1 Python Basics.md>)
 - 1.1.1 Syntax
 - 1.1.2 Functions
 - 1.1.3 Booleans & Conditions
@@ -39,9 +40,13 @@ Please refer to the following guides on how to install Python 3 on different pla
 - 1.1.7 Working with External Libraries
 
 #### Python OOP
-[Module 1.2 - Object-Oriented Programming](<./Module_1.2_Object_Oriented_Programming.md>)
+[Module 1.2 - Object-Oriented Programming](<./Module 1.2 Object Oriented Programming.md>)
 - 1.2.1 Classes
 - 1.2.2 Constructors and Instances
 - 1.2.3 Methods
 - 1.2.4 Objects as Arguments and Parameters
 - 1.2.5 Inheritance (Optional)
+
+## Next up:
+You will be learning the data science libraries and basic machine learning in Python
+- [Module 2 - Data Science and Machine Learning](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%202%20-%20Data%20Science%20and%20Machine%20Learning)
