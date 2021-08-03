@@ -21,9 +21,9 @@ Module 0, 1, 2 and 3
 
 ## Trading Strategies
 
-- 4.1. Moving Average Trend Following
+- 4.1. [Moving Average Trend Following](<./Module_4.1_Moving_Average_Trend_Following.md>)
 - 4.2. Bollinger Band Trend Following / Mean-reverting
 - 4.3. Statistical Arbitrage
 - 4.4. Gradient Boosting Decision Trees based Model
 - 4.5. Deep Learning based Model
-- 4.6. On-Chain Analysis
+- 4.6. [On-Chain Analysis (optional)](<./Module_4.6_On-chain_Analysis.md>)
