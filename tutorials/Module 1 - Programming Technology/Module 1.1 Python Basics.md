@@ -55,7 +55,7 @@ Below is the summary of the content covered in the [Kaggle](https://www.kaggle.c
 
 ### 1.1.1 Syntax
 
-[cheatsheet](https://drive.google.com/file/d/1xDrV2ugdKPQWpEsJGhfrjD3oES2QZ0GH/view?usp=sharing)
+[cheatsheet (syntax)](https://drive.google.com/file/d/1xDrV2ugdKPQWpEsJGhfrjD3oES2QZ0GH/view?usp=sharing)
 
 - `print("Strings are enclosed by double or single quotation marks")`
 - arithmetic
@@ -80,7 +80,7 @@ Below is the summary of the content covered in the [Kaggle](https://www.kaggle.c
 
 ### 1.1.2 Functions
 
-[cheatsheet](https://drive.google.com/file/d/17YNfbkFalRg6BtXAX-914FmupmzwEk7P/view?usp=sharing)
+[cheatsheet (functions)](https://drive.google.com/file/d/17YNfbkFalRg6BtXAX-914FmupmzwEk7P/view?usp=sharing)
 
 > Functions are named blocks of code, designed to do one
 specific job. Information passed to a function is called an
@@ -104,7 +104,7 @@ In the above example, `10` is the argument, `num` is the parameter
 
 
 ### 1.1.3 Booleans & Conditions
-[(cheatsheet)](https://drive.google.com/file/d/1RNnicY97CE4PW1QP2qrA67LtqY5gKXft/view?usp=sharing)
+[cheatsheet (if, while)](https://drive.google.com/file/d/1RNnicY97CE4PW1QP2qrA67LtqY5gKXft/view?usp=sharing)
 > If statements are used to test for particular conditions and respond appropriately.
 
 - Booleans: `True` or `False`
@@ -123,7 +123,7 @@ In the above example, `10` is the argument, `num` is the parameter
 
 
 ### 1.1.4 Lists
-[(cheatsheet)](https://drive.google.com/file/d/1N_4crYubJg7d87tn1oJs3KwGGmd0t-Oy/view?usp=sharing)
+[cheatsheet (list)](https://drive.google.com/file/d/1N_4crYubJg7d87tn1oJs3KwGGmd0t-Oy/view?usp=sharing)
 
 > A list stores a series of items in a particular order. You access items using an **index**, or within a **loop**.
 
@@ -140,7 +140,7 @@ In the above example, `10` is the argument, `num` is the parameter
 
 ### 1.1.5 Loops and List comprehension
 
-[(cheatsheet)](https://drive.google.com/file/d/1RNnicY97CE4PW1QP2qrA67LtqY5gKXft/view?usp=sharing)
+[cheatsheet (if, while)](https://drive.google.com/file/d/1RNnicY97CE4PW1QP2qrA67LtqY5gKXft/view?usp=sharing)
 
 - `for` loops and `range()`
 > A For loop is used to repeat a specific block of code a known number of times.
@@ -172,7 +172,7 @@ can't know ahead of time how many times a loop should run.
 - `str()`
 - [Exercises](https://runestone.academy/runestone/books/published/thinkcspy/Strings/Exercises.html)
 
-#### Dictionaries [(cheatsheet)](https://drive.google.com/file/d/1H_OP3ENYKB3A-h_dSGRwhjKz1DydtYko/view?usp=sharing)
+#### Dictionaries [cheatsheet (dictionary)](https://drive.google.com/file/d/1H_OP3ENYKB3A-h_dSGRwhjKz1DydtYko/view?usp=sharing)
 > Dictionaries store connections between pieces of information. Each item in a dictionary is a **key-value** pair.
 
 - dictionary comprehension

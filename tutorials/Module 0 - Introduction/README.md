@@ -7,6 +7,10 @@ This chapter will give an overview of cryptocurrencies and explain the motivatio
 
 **Note that there are quite some optional external references included in this Module, feel free to go through or skip them at your own interest**
 
+## Link to video
+[video link](https://drive.google.com/file/d/1pNpDHNe3m8VU1tMAivzlD_uDJxD8JErx/view)
+- The video will briefly give you an overview of content in module 0
+
 ## Estimated Time to Finish:
 0.5~1 hours (excluding optional materials)
 
