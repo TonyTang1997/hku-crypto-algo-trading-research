@@ -40,3 +40,28 @@ The rationale behind is that orders with large sizes are executed by institution
 ## Exponentially Weighted Moving Average
 
 Exponential Weighted Moving Average (EMA) places larger weights on recent observations. EWMA responds to recent price changes more sensitively than SMA, which allocates equal weightings to all observations in the period.
+
+
+# <ins> Trading Logic <ins/>
+
+Example https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/algos/cryptos_sma_trend_following.py
+
+We have an example here implementing a SMA cross-over strategy. 
+
+When the current price is larger than the 210-days simple moving average, we buy the instrument. Otherwise, we liquidate our current position.
+
+This is a very simple strategy and there are serveral improvements than you can add on it. 
+
+1. Tuning the parameter of moving average (using different days of moving average)
+
+2. Using different types of moving average (SMA, VWMA, EWMA)
+
+3. Instead of the current price, placing trades when a shorter horizon moving average cross-over a longer horizon moving average.
+
+4. The current implementation only generates buy signals, we can also follow the downward trend to generate short signals.
+
+
+
+
+
+
