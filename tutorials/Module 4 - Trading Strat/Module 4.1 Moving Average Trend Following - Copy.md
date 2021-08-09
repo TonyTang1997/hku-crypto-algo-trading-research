@@ -4,6 +4,20 @@ HKU FinTech Competition
 
 # <ins> Moving Average Trend Following <ins/>
 
+## Pre-requisites
+- [Module 2.1 Pandas](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/tutorials/Module%202%20-%20Data%20Science%20and%20Machine%20Learning/Module%202.1%20Pandas.md)
+- [Module 3.3 Working with Quantconnect platform](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%203%20-%20Quantitative%20Finance)
+
+## Estimated Time to Finish:
+1.5 - 2 hour 
+
+## Main Learning Objectives:
+- Understanding moving averages and their definitions
+- How to apply moving averages as trading signals
+- Implementing moving averages trend following strategy in quantconnect
+
+---
+
 Moving Average is a family of most well-known technical indicators adopted by different traders.
 
 The formal statistical definition of moving average is the calculation of averages of different subsets (rolling window) of all the observations.
@@ -44,11 +58,9 @@ Exponential Weighted Moving Average (EMA) places larger weights on recent observ
 
 # <ins> Trading Logic <ins/>
 
-Example https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/algos/cryptos_sma_trend_following.py
-
 We have an example here implementing a SMA cross-over strategy. 
 
-When the current price is larger than the 210-days simple moving average, we buy the instrument. Otherwise, we liquidate our current position.
+When the current price is larger than the 210-days simple moving average, we think that the instrument is in a upward trend and buy it. Otherwise, we liquidate our current position.
 
 This is a very simple strategy and there are serveral improvements than you can add on it. 
 
@@ -61,6 +73,8 @@ This is a very simple strategy and there are serveral improvements than you can 
 4. The current implementation only generates buy signals, we can also follow the downward trend to generate short signals.
 
 
+#### Link to code
+[link to code](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/algos/cryptos_sma_trend_following.py)
 
 
 
