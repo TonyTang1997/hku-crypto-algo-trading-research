@@ -46,7 +46,7 @@ In this module, we will go over Hash Rate and Network Value of Bitcoin and how t
 ---
 
 
-## Hash Rate Capitulation Ribbon
+## 4.6.1 Hash Rate Capitulation Ribbon
 
 ### Hash Rate
 
@@ -57,7 +57,7 @@ It is the speed at which the Bitcoin network processes data when adding new tran
 
 The hash rate of all Bitcoin mining computers has long been a helpful indicator for determining the network's size and power. It shows how much computational power is committed to processing and recording transactions on the Bitcoin ledger.
 
-As of July 01, 2021, Bitcoin hashrate is around 90 EH/s, and achieved an all time high on May 09, 2021 at block 682,804 of 224.02 EH/s $(2.2402 \cdot 10^{20})$  [source](https://www.coinwarz.com/mining/bitcoin/hashrate-chart)
+As of July 01, 2021, Bitcoin hashrate is around 90 EH/s, and achieved an all time high on May 09, 2021 at block 682,804 of 224.02 EH/s **![](https://lh4.googleusercontent.com/9fPkmveyIeHHrw5Ho1AT79b6dJiHDVBgsC9ptmCD2Ddb4DNSBt-QT-YKpzRLA1qNEH3rU2s7i7Vf_sD8_L2BqB0mh2FELCfAr5dDAP4VzdSFKr9s6g78pRxHH42QubkvBw)**  [source](https://www.coinwarz.com/mining/bitcoin/hashrate-chart)
 
 ### The Relationship between Price and Hash Rates
 
@@ -78,28 +78,21 @@ In order to eliminate drawdowns, Bitcoin 10- and 20-day close price SMA crossove
 
 This strategy is also applicable for other Proof-of-Work cryptocurrencies (e.g ETH, LTC)
 
-#### Link to code
-[link to code]()
-[link to QC backtest results]()
+#### Link to code and video
+[link to code](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/algos/onchain_analysis/hashRateRibbon.py)
+[link to video](https://drive.google.com/file/d/1xbuRJwfPFm_0ftpK903TIOtugjmHuATg/view?usp=sharing)
 
 
 ---
 
-## Network-Value-Transaction (NVT) Signal
-
-
+## 4.6.2 Network-Value-Transaction (NVT) Signal
 
 ### Standard NVT Ratio
 
 NVT was proposed by [Willy Woo in 2017](https://woobull.com/introducing-nvt-ratio-bitcoins-pe-ratio-use-it-to-detect-bubbles/)  as a proxy assessment for Bitcoin's network's underlying utility. The NVT Ratio (Network Value to Transactions Ratio) is analogous to the P/E Ratio used in equities markets.
 
-$$
-\text{NVT Ratio} = MA_{14}(\frac{\text{NV}}{\text{TV}})\\
-$$
-$\textbf{where:}$
-NV = Market Capitalization
-TV = Daily on-chain Transaction Volume (in USD)
-
+	
+**![](https://lh3.googleusercontent.com/8byo-8W12-XHoEJ2GOJAmHkiwX8hW8R142PfdtVgLmXjQ67Mp47Bei_BCIt9YcKdRbz_GfuisK4BaQofPdgx1dGWKHe0VsV3m7sk964h1y51WnmW4Kgdf5dYpKcGcW_E4A)**
 
 Bitcoin's NVT ratio is calculated by dividing the Network Value (NV) (Market Capitalization) by the daily USD Transaction Volume transmitted through the blockchain (TV) and then smoothed out using a 2-week moving average or median.
 
@@ -113,27 +106,26 @@ This metric is also applicable for other cryptocurrencies with a public ledger.
 
 ### NVT Signal
 
-$$
-\text{NVT Signal} = \frac{\text{NV}}{MA_{90}(\text{TV})}
-$$
-
+**![](https://lh6.googleusercontent.com/opjl3O_L7iwfUxGE3DUhhw6CZiQOhPwADubKzw6pOYme3U4xsfdyuZr5iiR5OUm1XP7JEU22IYSruswf8YNKHUH-vzfWMzBkRATaPS64s-fNYKoBcVUBvsSw8hANIaXCEQ)**
+	
 [Dmitry Kalichkin](<(https://medium.com/cryptolab/https-medium-com-kalichkin-rethinking-nvt-ratio-2cf810df0ab0)>) proposed a more responsive version of NVT as an indicator in 2018 by applying the moving average just to the volatile Transactions component only without smoothing the already stable Network Valuation component, hence Kalichkin NVT Signal (NVTS).
 
 NVT Signal can be used as an oscillator. At the inception of the indicator, Bitcoin was considered overbought when NVTS was above 150. When it was below 60, it was considered oversold. However, since Mar 2018, NVTS of bitcoin has never dropped below 60. As a result, NVTS has often over-signaled bearish and failed to signal bullish as strongly as it previously has In the last few years,
 
 ### Modified NVTS Indicator
 
-To further improve NVTS, the absolute difference between NVTS and its 90-day Running Moving Average (RMA) is measured to detect significant deviation. Note that RMA is just an EMA with a stronger weight for recent values (where $\alpha = 1/N$).
+To further improve NVTS, the absolute difference between NVTS and its 90-day Running Moving Average (RMA) is measured to detect significant deviation. Note that RMA is just an EMA with a stronger weight for recent values **![](https://lh6.googleusercontent.com/IGVmIzRcSTzDHlUT7sWCIImaGE_h3j6GkmFnIFPoOlhF6Wez8xTCjsQwyJOORw3RQGKfpq8mW0M0w-ITTug2bhhZgQ7uHsTrGu3FIQy9hBPErPlY2j7dx8skNDYW1cctBQ)**
+	
 - Forgot what is an EMA? please refer back to [Module 4.1 Moving Average Trend Following](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/tutorials/Module%204%20-%20Trading%20Strat/Moving%20Average%20Trend%20Following.md)
 
-$$RMA_i = \left(1-\frac{1}{N}\right)RMA_{i-1}+\frac{1}{N}price_i$$$$Deviation =  \frac{|NVTS - RMA_{90}(NVTS)|}{ RMA_{90}(NVTS)}$$
+**![](https://lh5.googleusercontent.com/vHWZTtDOO8sioYXk9xjw7EC1fXMMmCoFAZHspajKjePL7OGz58bAfe9WEWCZMeBnOIwyzrapUBoQySZvtYRgDmYgTQuPnBEolI141OIAJRkW0is7Ox_XfyQkpJ88AaOe0Q)**
 
 The deviation is considered significant when it is above 0.35. A long position is entered when NVTS is above the oversold threshold (160) and there is a significant deviation. Similarly, the position is closed when NVTS is below the overbought threshold (90) and the deviation is significant.
 
 
-#### Link to code
-[link to code]()
-[link to QC backtest results]()
+#### Link to code and video
+[link to code](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/algos/onchain_analysis/nvts.py)
+[link to video]()
 
 ---
 
