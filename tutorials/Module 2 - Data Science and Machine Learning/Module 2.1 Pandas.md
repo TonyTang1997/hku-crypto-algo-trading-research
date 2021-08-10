@@ -2,7 +2,7 @@
 HKU FinTech Competition
 <br><br>
 
-# <ins> Pandas <ins/>
+# <ins> 2.1 Pandas <ins/>
 
 ## Overview
 Pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series.
@@ -61,7 +61,7 @@ In this section, we are going to cover the following topics about pandas
 ---
 ## Next Up:
 
-You will learn [Introduction to Machine Learning](<./Module 2.2 Introduction to Machine Learning.md>) in the next section.
+You will learn [Introduction to Machine Learning](<./Module 2.2 Introduction to Machine Learning.md>) in the next section and hopefully, you will be able to develop your first ML model after learning the next section.
 
 ---
 ## References

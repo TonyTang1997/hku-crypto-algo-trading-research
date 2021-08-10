@@ -43,4 +43,4 @@ This module serves to give you an introduction to programming for data science, 
 - 2.2.7. Machine Learning Competitions
 
 ## Next up:
-Let's get started with [Pandas](<./Module 2.1 Pandas.md>)!
+Let's get started with [Pandas](<./Module 2.1 Pandas.md>), where you'll learn how to work with real data in Python!

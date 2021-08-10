@@ -2,7 +2,7 @@
 HKU FinTech Competition
 <br><br>
 
-# <ins> Machine Learning <ins/>
+# <ins> 2.2 Machine Learning <ins/>
 
 ## Overview
 Machine learning is the study of computer algorithms that improve automatically through experience and by the use of data. It is seen as a part of artificial intelligence.
@@ -69,7 +69,7 @@ In this section, we are going to cover the following topics about Machine Learni
 
 ## Next Up:
 
-You will learn [Quantitative Finance](<../Module 3 - Quantitative Finance/README.md>) in the next section.
+You will learn [Quantitative Finance](<../Module 3 - Quantitative Finance/README.md>) in the next section and get prepared for some financial knowledge and how to use QuantConnect to develop your trading strategies.
 
 ---
 ## References
