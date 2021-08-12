@@ -4,50 +4,46 @@ HKU FinTech Competition
 
 ## Pre-requisites
 - [Module 2.1 Pandas](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/tutorials/Module%202%20-%20Data%20Science%20and%20Machine%20Learning/Module%202.1%20Pandas.md)
-- [Module 3.1 Basic math of quantitative finance](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%203%20-%20Quantitative%20Finance)
+- [Module 2.2 Introduction to Machine Learning](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/tutorials/Module%202%20-%20Data%20Science%20and%20Machine%20Learning/Module%202.2%20Introduction%20to%20Machine%20Learning.md)
 - [Module 3.3 Working with Quantconnect platform](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%203%20-%20Quantitative%20Finance)
-- [Module 4.1 Moving Average Trend Following]()
+- [Module 4.2 Bollinger Band Mean Reverting](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/tutorials/Module%204%20-%20Trading%20Strat/Module%204.2%20Bollinger%20Band%20Mean%20Reverting.md)
 
 ## Estimated Time to Finish:
 1.5 - 2 hour 
 
 ## Main Learning Objectives:
-- Understanding the definitions of bollinger band
-- How to apply bollinger band as trading signals
-- Implementing bollinger band mean reverting strategy in quantconnect
+- Understanding the basic of Gradient Boosting Decision Trees 
+- Implementing Gradient Boosting Decision Trees strategy in quantconnect
 
 
-# <ins> Bollinger Band Mean Reverting <ins/>
+# <ins> Gradient Boosting Decision Trees <ins/>
 
-Bollinger Band utilises basic statistical concepts, including mean and standard deviation, to identify the price range of assets.   
+A decision tree is a machine learning model that builds upon iteratively asking questions to partition data and reach a solution. It is the most intuitive way to zero 
+in on a classification or label for an object. Visually too, it resembles and upside down tree with protruding branches and hence the name.
 
-Bollinger Band is bulit on a simple moving average. We first calculate a SMA of a certain time horizon, then the upper band is derived by adding the rolling standard deviation of the prices during the same time horizon and the lower band is derived by minusing the rolling standard deviation of the prices during the same time horizon.
+A decision tree is a flowchart-like tree structure where each node is used to denote feature of the dataset, each branch is used to denote a decision, and each leaf 
+node is used to denote the outcome.
 
+Ensemble learning, in general, is a model that makes predictions based on a number of different models. By a combining a number of different models, an ensemble learning tends to be more flexible (less bias) and less data sensitive (less variance).
 
-# <ins> Usages of the indicators <ins/>
+The two most popular ensemble learning methods are bagging and boosting.
+1. Bagging : Training a bunch of models in parallel way. Each model learns from a random subset of the data.
 
-Here are some of the common applications of the Bollinger Band 
+2. Boosting : Training a bunch of models sequentially. Each model learns from the mistakes of the previous model.
 
-1. When the band gets narrower due to a period of lower volatility, there is higher possibility for the price to move sharpely on either direction, leading to a higher volatility period.
+Boosting works on the principle of improving mistakes of the previous learner through the next learner.
 
-2. For some assets, the prices have a high tendency to bounce within the upper and lower bands, touching one band then revert to the moving average. We can trade a mean reverting strategy if we identify these trends. 
-
-3. The breakout of the price to either one of the upper or lower bands is a major event and indicating the instrument has enter another regime. 
+In boosting, weak learner are used which perform only slightly better than a random chance.
+Boosting focuses on sequentially adding up these weak learners and filtering out the observations that a learner gets correct at every step. Basically the stress is on 
+developing new weak learners to handle the remaining difficult observations at each step.
 
 # <ins> Trading Logic <ins/>
 
-When the price of the instrument touches either band, we expect that it will revert back to it's moving average. 
+The strategy is bulit on Module 4.2 Bollinger Band Mean Reverting, we apply a GBDT model to decide we want to follow the suggestions from Bollinger Band or not.
 
-- When the price is larger than the upper band, take a short position
-
-- When the price is lower than the lower band, take a long position.
-
-- When we have a short position and the price is lower than the moving average, liquidate all the positions.
-
-- When we have a long position and the price is larger than the moving average, liquidate all the positions.
 
 #### Link to code
-[link to code](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/algos/bband.py)
+[link to code](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/algos/lightgbm_btc)
 
 
 

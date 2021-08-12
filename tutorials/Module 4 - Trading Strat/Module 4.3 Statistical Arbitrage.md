@@ -5,10 +5,11 @@ HKU FinTech Competition
 # <ins> Statistical Arbitrage <ins/>
 
 ## Pre-requisites
+
+- [Module 2.2 Introduction to Machine Learning](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/tutorials/Module%202%20-%20Data%20Science%20and%20Machine%20Learning/Module%202.2%20Introduction%20to%20Machine%20Learning.md)
 - [Module 3.1 Basics maths of quantitative finance](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%203%20-%20Quantitative%20Finance)
-
+- [Module 3.3 Working with Quantconnect platform](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%203%20-%20Quantitative%20Finance)
 - [Module 4.1 Moving Average Trend Following](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/tutorials/Module%204%20-%20Trading%20Strat/Module%204.1%20Moving%20Average%20Trend%20Following.md)
-
 - [Module 4.2 Bollinger Band Mean Reverting](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/tutorials/Module%204%20-%20Trading%20Strat/Module%204.2%20Bollinger%20Band%20Mean%20Reverting.md)
 
 
