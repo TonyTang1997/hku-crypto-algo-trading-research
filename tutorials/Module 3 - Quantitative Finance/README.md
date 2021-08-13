@@ -2,7 +2,7 @@
 HKU FinTech Competition
 <br><br>
 
-# <ins> Quantitative Finance <ins/>
+# <ins> Module 3 - Quantitative Finance <ins/>
 
 Quantitative Finance is a rather new subject / discipline / occupation which has been existing for less than 50 years.
 The study of Quantitative Finance is to employ systematic and scientific reasonings to understand, analyse and model the financial market.

@@ -2,7 +2,7 @@
 HKU FinTech Competition
 <br><br>
 
-# <ins> Module 1 - Programming Technology Overview <ins/>
+# <ins> Module 1 - Programming Technology <ins/>
 
 This module serves to give you an introduction to basic python, and to lead you into the realm of programming. Some topics related to python will be discussed, such as the libraries for data science and machine learning. This module provides a general picture of python, thereby supporting studies of examples in upcoming modules.
 

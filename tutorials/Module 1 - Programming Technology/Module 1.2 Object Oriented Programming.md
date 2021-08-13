@@ -2,7 +2,7 @@
 HKU FinTech Competition
 <br><br>
 
-# <ins> Python Object-Oriented Programming <ins/>
+# <ins> 1.2 Python Object-Oriented Programming <ins/>
 
 **The QuantConnect (QC) examples can be ignored if you have not started reading the modules on quantconnect. You can return to this module and take a look at the QC examples later.**
 

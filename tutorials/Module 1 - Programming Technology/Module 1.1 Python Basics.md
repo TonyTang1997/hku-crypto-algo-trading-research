@@ -2,7 +2,7 @@
 HKU FinTech Competition
 <br><br>
 
-# <ins> Basic Python <ins/>
+# <ins> 1.1 Basic Python <ins/>
 
 Python is a programming language named after the British comedy troupe [Monty Python](https://en.wikipedia.org/wiki/Monty_Python).
 In This chapter, we will cover the key Python skills you’ll need so you can start programming.
