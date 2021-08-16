@@ -9,7 +9,7 @@ HKU FinTech Competition
 - [Module 3.3 Working with Quantconnect platform](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/tutorials/Module%203%20-%20Quantitative%20Finance)
 
 ## Estimated Time to Finish:
-1.5 - 2 hour 
+1.5 - 2 hour
 
 ## Main Learning Objectives:
 - Understanding moving averages and their definitions
@@ -17,6 +17,9 @@ HKU FinTech Competition
 - Implementing moving averages trend following strategy in quantconnect
 
 ---
+## Moving Average
+
+[How to Trade Moving Averages (Part 1)](https://www.youtube.com/watch?v=4R2CDbw4g88)
 
 Moving Average is a family of most well-known technical indicators adopted by different traders.
 
@@ -58,11 +61,11 @@ Exponential Weighted Moving Average (EMA) places larger weights on recent observ
 
 # <ins> Trading Logic <ins/>
 
-We have an example here implementing a SMA cross-over strategy. 
+We have an example here implementing a SMA cross-over strategy.
 
 When the current price is larger than the 210-days simple moving average, we think that the instrument is in a upward trend and buy it. Otherwise, we liquidate our current position.
 
-This is a very simple strategy and there are serveral improvements than you can add on it. 
+This is a very simple strategy and there are serveral improvements than you can add on it.
 
 1. Tuning the parameter of moving average (using different days of moving average)
 
@@ -76,6 +79,13 @@ This is a very simple strategy and there are serveral improvements than you can 
 #### Link to code
 [link to code](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/algos/cryptos_sma_trend_following.py)
 
+---
 
+## Next up:
 
+[Module 4.2 Bollinger Band Mean Reverting](<./Module 4.2 Bollinger Band Mean Reverting.md>)
 
+---
+
+## References
+- [How to Trade Moving Averages (Part 1)](https://www.youtube.com/watch?v=4R2CDbw4g88)
