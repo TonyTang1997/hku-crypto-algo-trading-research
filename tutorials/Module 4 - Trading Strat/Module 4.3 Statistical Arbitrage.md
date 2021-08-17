@@ -23,6 +23,9 @@ HKU FinTech Competition
 
 ---
 ## Statistical arbitrage
+
+[Basic Statistical Arbitrage: Understanding the Math Behind Pairs Trading -- Quantopian](<https://www.youtube.com/watch?v=g-qvFjvyqcs>)
+
 Statistical arbitrage (or stat arb) refers to a group of trading strategies that utilize mean reversion analyses to invest in diverse portfolios of up to thousands of securities for a very short period of time, often only a few seconds but up to multiple days.
 
 Statistical arbitrage strategies are market neutral because they involve opening both a long position and short position simultaneously to take advantage of inefficient
