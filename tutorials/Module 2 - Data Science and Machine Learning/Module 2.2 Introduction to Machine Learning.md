@@ -17,7 +17,7 @@ Machine learning is the study of computer algorithms that improve automatically 
 ---
 
 ## Estimated Time to Finish:
-3 hours
+5 hours
 
 ---
 
@@ -28,7 +28,7 @@ Machine learning is the study of computer algorithms that improve automatically 
 ---
 ## Tutorials
 
-In this section, we are going to cover the following topics about Machine Learning.
+In this section, we are going to cover the following topics about Machine Learning. In the turotial videos we'll walk you through the Kaggle notebook and we recommend watch them before getting your hands on the exercises on Kaggle.
 
 - 2.2.1. How Models Work
 

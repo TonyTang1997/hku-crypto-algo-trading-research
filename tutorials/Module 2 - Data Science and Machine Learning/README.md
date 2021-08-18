@@ -12,13 +12,15 @@ This module serves to give you an introduction to programming for data science, 
 - Object-oriented Programming
 
 ## Estimated Time to Finish:
-8 hours
+12 hours
 
 ## Main Learning Objectives:
-- How to create and manipulate DataFrames
-- How to turn real-time data into codes
-- Learn the core ideas in machine learning
-- How to build your first models
+- 2.1 Pandas
+    - How to create and manipulate DataFrames
+    - How to turn real-time data into codes
+- 2.2 Introduction to Machine Learning
+    - Learn the core ideas in machine learning
+    - How to build your first models
 
 
 ## Study Roadmap
