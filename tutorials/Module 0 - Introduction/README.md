@@ -44,17 +44,22 @@ The tutorial about cryptocurrency is based on [Coin Bureau](https://youtu.be/VYW
 from Investopedia:
 > A cryptocurrency is a digital or virtual currency that is secured by cryptography, which makes it nearly impossible to counterfeit or double-spend. Many cryptocurrencies are decentralized networks based on blockchain technology—a distributed ledger enforced by a disparate network of computers. A defining feature of cryptocurrencies is that they are generally not issued by any central authority, rendering them theoretically immune to government interference or manipulation.
 
-Simply put, they are akin to regular currencies but digital. Instead of having banks or the government keep track of your wallet balance, this is done by computers that connect to a cryptocurrency network to process transactions and earn cryptocurrency (In the case of Bitcoin, it is called "mining") for doing so.
+Simply put, they are akin to regular currencies but digital. Instead of having banks or the government keep track of your wallet balance, this is done by computers that connect to a cryptocurrency network to process transactions and earn cryptocurrency (In the case of Bitcoin, it is called "mining", by which new bitcoins are entered into circulation) for doing so.
 
 ### 0.1.2 🙋‍♂‍Questions About Bitcoin, Dogecoin, Ethereum etc.🙋‍♂‍
 
 According to [coingecko](https://www.coingecko.com/en), there are currently more than 8000 cryptocurrencies out there. Broadly speaking they can be divided into two types, **coins** and **tokens**
 
-**Cryptocurrency coins** belong to cryptocurrency networks that were built from the ground up.
+**Cryptocurrency coins**
+- belong to cryptocurrency networks that were built from the ground up.
+- have their own separate, standalone blockchains
+  - As cryptocurrency networks are so hard to make from scratch, only a few dozen cryptocurrencies are actually coins
+  - e.g. Bitcoin, Ethereum, Ripple, Polkadot
 
-As cryptocurrency networks are so hard to make from scratch, only a few dozen cryptocurrencies are actually coins (e.g. Bitcoin, Ethereum, Ripple, etc). The rest are **cryptocurrency tokens**.
-
-Given how easy it is to create cryptocurrency tokens, a lot of them are created to scam people (e.g. pump-and-dump schemes). Therefore, it is important to learn how to spot scam tokens when you see one.
+**cryptocurrency tokens**.
+- built on top of an existing blockchain
+  - e.g. Ethereum ERC-20 tokens: Uniswap, ChainLink, Polygon are based on the Ethereum blockchain.
+  - Given how easy it is to create cryptocurrency tokens, a lot of them are created to scam people (e.g. pump-and-dump schemes). Therefore, it is important to learn how to spot scam tokens when you see one.
 
 ### 0.1.3 💰Explaining Cryptocurrency Price And Value💰
 
@@ -64,9 +69,8 @@ For example, the [Stock-to-Flow Model](https://www.lookintobitcoin.com/charts/st
 
 
 Besides, we can also value cryptocurrencies with network valuation techniques.
-In 2017, The co-founder of FundStrat Tom Lee announced a pricing model for Bitcoin [(source)](https://www.businessinsider.com/bitcoin-price-movement-explained-by-one-equation-fundstrat-tom-lee-metcalf-law-network-effect-2017-10). The model explained 94% of the variability of Bitcoin’s price in the previous 4 years with a high degree of confidence around the variables. This model was based on [Metcalfe's law](https://en.wikipedia.org/wiki/Metcalfe%27s_law), which says the value of a network is proportional to the square of the number of users on the network.
+In 2017, The co-founder of FundStrat Tom Lee announced a pricing model for Bitcoin [(source)](https://www.businessinsider.com/bitcoin-price-movement-explained-by-one-equation-fundstrat-tom-lee-metcalf-law-network-effect-2017-10). The model explained 94% of the variability of Bitcoin’s price in the previous 4 years with a high degree of confidence around the variables. This model was based on [Metcalfe's law](https://en.wikipedia.org/wiki/Metcalfe%27s_law), which says the value of a network is proportional to the square of the number of users on the network. The surge of Bitcoin's price is usually accompanied by the influx of the new Bitcoin users.
 
-As the number of Bitcoin users surges, we can see
 ## Optional resources
 
 for learning more about different cryptocurrencies:
@@ -128,18 +132,20 @@ Given that the average cryptocurrency trader is **irrational**, many believe tha
 ## 0.3 Trading cryptocurrencies
 Although the cryptocurrency market is relatively new, it has experienced significant volatility due to huge amounts of short-term speculative interest. Such volatility makes the crypto market attractive for traders.
 
-The video below explains crypto trading in plain words.
-
-[Crypto trading for beginners](https://www.youtube.com/watch?v=c7VH96My_3I)
-
-[![](http://img.youtube.com/vi/c7VH96My_3I/0.jpg)](https://www.youtube.com/watch?v=c7VH96My_3I "Original")
-
+The video below explains crypto trading in plain words, such as the concepts of:
 - Different kinds of fees
 - Different order types in an exchange
 - How to read price charts
 - Bull vs Bear market
 - Support and Resistance levels explained
 - Common trading mistakes
+
+
+
+[![Crypto trading for beginners](http://img.youtube.com/vi/c7VH96My_3I/0.jpg)](https://www.youtube.com/watch?v=c7VH96My_3I "Original")
+
+[Crypto trading for beginners](https://www.youtube.com/watch?v=c7VH96My_3I)
+
 
 
 <div style="page-break-after: always;"></div>

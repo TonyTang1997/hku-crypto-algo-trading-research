@@ -8,7 +8,7 @@ HKU FinTech Competition
 
 In the QuantConnect (QC) platform, algorithms are implemented with classes. In order for you to design an algorithm there, you will need to know the basics of Object-Oriented Programming (OOP).
 
-In This chapter, we will cover the basic python OOP skills you’ll need so you can understand the structure of QC algorithms and be able to read and learn from other's algorithm.
+In this chapter, we will cover the basic python OOP skills you’ll need so you can understand the structure of QC algorithms and be able to read and learn from other's algorithm.
 
 **Note that there are quite some optional external references included in this Module, feel free to go through or skip them at your own interest.**
 
@@ -97,7 +97,7 @@ Classes are the foundation of **object-oriented programming**. Classes represent
 
 A class defines the *general behavior that a whole category of objects can have*, and the information that can be associated with those objects. Classes can **inherit** from each other – you can write a class that **extends the functionality** of an existing class. This allows you to code efficiently for a wide variety of situations. Even if you don't write many of your own classes, you'll frequently find yourself working with classes that others have written.
 
-#### Terminalogy
+#### Terminology
 - **Class**: A template for objects
 - **Attribute**: A variable within a class
 - **Method**: A function within a class
