@@ -36,7 +36,7 @@ You will be learning the basics of python from the tutorials on [*Kaggle*](https
 **Kaggle** will be main learning resource for this module as the tutorials are interactive and filled with examples. You will also get to try out some exercises inside **Kaggle notebooks** after learning each subtopic.
 - for Kaggle notebooks, each logged out sessions resets after 15 minutes. You can create a Kaggle account (which is free) to bypass this limitation and get the benefit of progress tracking.
 - However, most exercises are short, and you probably will not need more than 15 minutes to finish them, so creating an account is not a must.
-- **Make sure you run the setup cell first in each exercise before doing the questions**, refer to the [overview video]() for more.
+- **Make sure you run the setup cell first in each exercise before doing the questions**, refer to the [overview video](https://drive.google.com/file/d/1fSZWMmj8I5qEJ2SegIIacIOHpzxbjkUr/view?usp=sharing) for more.
 - **Please do not change the line with the answer-checking function call (e.g. `q0.check(color)`)**
 
 **The following content is the summary of the Kaggle chapters. You are advised to *finish the entire kaggle tutorial first* before referring to the below summary as a refresher.**

@@ -39,16 +39,16 @@ This chapter will give an overview of cryptocurrencies and explain the motivatio
 *Credit:
 The tutorial about cryptocurrency is based on [Coin Bureau](https://youtu.be/VYWc9dFqROI?t=131)'s video*
 
-### 0.1.1 👨‍🏫Cryptocurrency 101👨‍🏫
+### 0.1.1 ‍Cryptocurrency 101‍
 
 from Investopedia:
 > A cryptocurrency is a digital or virtual currency that is secured by cryptography, which makes it nearly impossible to counterfeit or double-spend. Many cryptocurrencies are decentralized networks based on blockchain technology—a distributed ledger enforced by a disparate network of computers. A defining feature of cryptocurrencies is that they are generally not issued by any central authority, rendering them theoretically immune to government interference or manipulation.
 
 Simply put, they are akin to regular currencies but digital. Instead of having banks or the government keep track of your wallet balance, this is done by computers that connect to a cryptocurrency network to process transactions and earn cryptocurrency (In the case of Bitcoin, it is called "mining", by which new bitcoins are entered into circulation) for doing so.
 
-### 0.1.2 🙋‍♂‍Questions About Bitcoin, Dogecoin, Ethereum etc.🙋‍♂‍
+### 0.1.2 Questions About Bitcoin, Dogecoin, Ethereum etc.
 
-According to [coingecko](https://www.coingecko.com/en), there are currently more than 8000 cryptocurrencies out there. Broadly speaking they can be divided into two types, **coins** and **tokens**
+According to [coingecko](https://www.coingecko.com/en), there are currently more than 8000 cryptocurrencies out there. Broadly speaking they can be divided into two types, **coins** and **tokens**. Looking at the project's website is usually the easiest approach to determine whether a project is a coin or a token.
 
 **Cryptocurrency coins**
 - belong to cryptocurrency networks that were built from the ground up.
@@ -61,7 +61,7 @@ According to [coingecko](https://www.coingecko.com/en), there are currently more
   - e.g. Ethereum ERC-20 tokens: Uniswap, ChainLink, Polygon are based on the Ethereum blockchain.
   - Given how easy it is to create cryptocurrency tokens, a lot of them are created to scam people (e.g. pump-and-dump schemes). Therefore, it is important to learn how to spot scam tokens when you see one.
 
-### 0.1.3 💰Explaining Cryptocurrency Price And Value💰
+### 0.1.3 Explaining Cryptocurrency Price And Value
 
 What makes cryptocurrencies valuable? For the case of Bitcoin (BTC), some says it has an economic profile to gold. It has a maximum supply and only a small amount of BTC is created each day, and that amount is cut in half every 4 years. It is akin to other 'store of value' commodities because they cam retain value over long time frames due to their relative scarcity.
 
