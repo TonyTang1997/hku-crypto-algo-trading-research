@@ -2,13 +2,13 @@
 HKU Fintech Competition
 <br><br>
 
-# <ins> Deep Learning based Model <ins/>
+# <ins> 4.5 Deep Learning based Model <ins/>
 
 ## A Brief Intro
 
-When the amount of data exceeds the capability of a human analyst, it becomes a problem to extract effective information out. There are many exsiting paradigms that try to resolve this. Many traditional statistians tend to use statistically prooved relieable techniques to process the data. But those parametrized models are inheritantly problematic since no one can promise that the model describes the reality well enough. It's common that such a manual feature selection process would result in the loss of useful information. That's where ML comes in. We will feed Machine Learning & Deep Learning Algorithms with real-time data and take ML/DL-based actions in real-time! This course will help you gauge how well the model generalizes its learning, and identify the steps needed to develop and implemente a ML-based trading strategy. By the end of this tutorial, you will be able to use QuantConnect Platform to build basic machine learning trading models.
+When the amount of data exceeds the capability of a human analyst, it becomes a problem to extract effective information out. There are many existing paradigms that try to resolve this. Many traditional statisticians tend to use statistically proved reliable techniques to process the data. But those parametrized models are inherently problematic since no one can promise that the model describes the reality well enough. It's common that such a manual feature selection process would result in the loss of useful information. That's where ML comes in. We will feed Machine Learning & Deep Learning Algorithms with real-time data and take ML/DL-based actions in real-time! This course will help you gauge how well the model generalizes its learning, and identify the steps needed to develop and implement a ML-based trading strategy. By the end of this tutorial, you will be able to use QuantConnect Platform to build basic machine learning trading models.
 
---- 
+---
 
 ## Pre-requisites
 
@@ -43,7 +43,7 @@ You can find a detailed explanation video for implementing a ML trading strategy
 
 The QuantConnect implementation code is [HERE](<../../algos/pytorch_deep_learning.py>)
 
---- 
+---
 
 ## Optional Resources
 
@@ -63,4 +63,3 @@ The QuantConnect implementation code is [HERE](<../../algos/pytorch_deep_learnin
 ## References
 
 - [PyTorch Documentation](https://pytorch.org)
-

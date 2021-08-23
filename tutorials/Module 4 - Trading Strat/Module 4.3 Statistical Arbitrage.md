@@ -2,7 +2,7 @@
 HKU FinTech Competition
 <br><br>
 
-# <ins> Statistical Arbitrage <ins/>
+# <ins> 4.3 Statistical Arbitrage <ins/>
 
 ## Pre-requisites
 
@@ -71,3 +71,5 @@ We have an example here implementing a statistical arbitrage strategy with the p
 
 ## References
   - [Statistical Arbitrage - Investopedia](https://www.investopedia.com/terms/s/statisticalarbitrage.asp)
+
+  - [Basic Statistical Arbitrage: Understanding the Math Behind Pairs Trading -- Quantopian](<https://www.youtube.com/watch?v=g-qvFjvyqcs>)

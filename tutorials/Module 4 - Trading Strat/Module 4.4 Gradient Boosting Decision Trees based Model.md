@@ -16,7 +16,7 @@ HKU FinTech Competition
 - Implementing Gradient Boosting Decision Trees strategy in quantconnect
 
 
-# <ins> Gradient Boosting Decision Trees <ins/>
+# <ins> 4.4 Gradient Boosting Decision Trees <ins/>
 
 A decision tree is a machine learning model that builds upon iteratively asking questions to partition data and reach a solution. It is the most intuitive way to zero
 in on a classification or label for an object. Visually too, it resembles and upside down tree with protruding branches and hence the name.
@@ -28,7 +28,7 @@ Ensemble learning, in general, is a model that makes predictions based on a numb
 
 The two most popular ensemble learning methods are bagging and boosting.
 1. Bagging : Training a bunch of models in parallel way. Each model learns from a random subset of the data.
-  - [Bootstrap AGgregating (Bagging)](https://www.youtube.com/watch?v=2Mg8QD0F1dQ) explained
+  - [Bootstrap Aggregating (Bagging)](https://www.youtube.com/watch?v=2Mg8QD0F1dQ) explained
 
 2. Boosting : Training a bunch of models sequentially. Each model learns from the mistakes of the previous model.
   - [Boosting EXPLAINED! - CodeEmporium](https://www.youtube.com/watch?v=MIPkK5ZAsms)

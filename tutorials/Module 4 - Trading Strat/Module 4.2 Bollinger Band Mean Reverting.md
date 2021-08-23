@@ -17,7 +17,7 @@ HKU FinTech Competition
 - Implementing bollinger band mean reverting strategy in quantconnect
 
 
-# <ins> Bollinger Band Mean Reverting <ins/>
+# <ins> 4.2 Bollinger Band Mean Reverting <ins/>
 
 [How to Use Bollinger Bands - TD Ameritrade](https://www.youtube.com/watch?v=AWN-jpnRwJg)
 
