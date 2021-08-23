@@ -50,6 +50,8 @@ The strategy is bulit on Module 4.2 Bollinger Band Mean Reverting, we apply a GB
 #### Link to code
 [link to code](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/tree/main/algos/lightgbm_btc)
 
+#### Link to tutorial
+[link to tutorial](https://www.quantconnect.com/tutorials/strategy-library/gradient-boosting-model)
 
 ---
 ## Next up:

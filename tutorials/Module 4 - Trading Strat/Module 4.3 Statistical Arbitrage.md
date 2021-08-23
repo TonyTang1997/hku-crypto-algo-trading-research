@@ -62,6 +62,9 @@ We have an example here implementing a statistical arbitrage strategy with the p
 #### Link to code
 [link to code](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/algos/btc_eth_stat_arb.py)
 
+#### Link to tutorial
+[link to tutorial](https://www.quantconnect.com/tutorials/strategy-library/mean-reversion-statistical-arbitrage-strategy-in-stocks)
+
 ---
 ## Next up:
 
