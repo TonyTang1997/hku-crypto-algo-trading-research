@@ -19,7 +19,7 @@ Module 0, 1, 2 and 3
 - To analyze backtesting results
 - To further enhance existing trading strategies
 
-## Trading Strategies
+## Study roadmap
 
 - 4.1. [Moving Average Trend Following](<./Module 4.1 Moving Average Trend Following.md>)
 - 4.2. [Bollinger Band Trend Following / Mean-reverting](<./Module 4.2 Bollinger Band Mean Reverting.md>)

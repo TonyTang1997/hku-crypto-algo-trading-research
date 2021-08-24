@@ -9,7 +9,7 @@ The study of Quantitative Finance is to employ systematic and scientific reasoni
 The early stage of quantitative finance is more about the use of mathematical models for pricing different products and optimising portfolios.
 Recently, the quantitative finance industry has been utilising data science and machine learning techniques to mine insights from extremely large dataset.
 
-## Tutorials
+## Study Roadmap
 
 In this section, we are going to cover the following topics about quantitative finance
 - 3.1. Basics maths of quantitative finance
