@@ -38,8 +38,9 @@ You will be learning the basics of python from the tutorials on [*Kaggle*](https
 - However, most exercises are short, and you probably will not need more than 15 minutes to finish them, so creating an account is not a must.
 - **Make sure you run the setup cell first in each exercise before doing the questions**, refer to the [overview video](https://drive.google.com/file/d/1fSZWMmj8I5qEJ2SegIIacIOHpzxbjkUr/view?usp=sharing) for more.
 - **Please do not change the line with the answer-checking function call (e.g. `q0.check(color)`)**
+- The non-code cells in the notebooks are called **Markdown** cells (the document you are reading right now is Markdown too). You do not have to learn how to use or edit them for this module. However, feel free to check out this [guide](https://www.markdownguide.org/getting-started) to get started on Markdown if you want to know how to write documents like this one.
 
-**The following content is the summary of the Kaggle chapters. You are advised to *finish the entire kaggle tutorial first* before referring to the below summary as a refresher.**
+**The following content is the summary of the Kaggle chapters. You are advised to *finish the entire Kaggle tutorial first* before referring to the below summary as a refresher.**
 
 [*Link to tutorial: Kaggle - Learning Python*](https://www.kaggle.com/learn/python)
 
@@ -242,3 +243,4 @@ You will learn [Object Oriented Programming](<./Module 1.2 Object Oriented Progr
 - ["Think Python"](https://greenteapress.com/wp/think-python/)
 - [Programming with Mosh - Python for Beginners [Full Course]](https://www.youtube.com/watch?v=_uQrJ0TkZlc)
 - [Common beginner problems - python for biologists](https://pythonforbiologists.com)
+- [An overview of Markdown](https://www.markdownguide.org/getting-started)
