@@ -49,3 +49,7 @@ In this section, we are going to cover the following topics about quantitative f
   * [link to quantconnect api tutorials](https://www.quantconnect.com/tutorials/api-tutorials/introduction)
 
   * [link to code of buy and hold bitcoin strategy](<../../algos/bitcoin_buy_and_hold.py>)
+
+
+## Next up:
+We can start implementing and backtesting trading strategies! (<../Module 4 - Trading Strat>)
