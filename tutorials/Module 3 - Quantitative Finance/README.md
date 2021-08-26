@@ -52,4 +52,4 @@ In this section, we are going to cover the following topics about quantitative f
 
 
 ## Next up:
-We can start implementing and backtesting trading strategies! (<../Module 4 - Trading Strat>)
+We can start implementing and backtesting [trading strategies](<../Module 4 - Trading Strat>) ! 
