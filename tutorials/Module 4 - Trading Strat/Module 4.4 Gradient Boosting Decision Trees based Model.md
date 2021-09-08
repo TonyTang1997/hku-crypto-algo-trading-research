@@ -1,6 +1,6 @@
 ### Cryptocurrency Algorithmic Trading
 HKU FinTech Competition
-<br><br
+<br><br>
 
 ## Pre-requisites
 - [Module 2.1 Pandas](https://github.com/TonyTang1997/hku-crypto-algo-trading-research/blob/main/tutorials/Module%202%20-%20Data%20Science%20and%20Machine%20Learning/Module%202.1%20Pandas.md)
@@ -13,7 +13,7 @@ HKU FinTech Competition
 
 ## Main Learning Objectives:
 - Understanding the basic of Gradient Boosting Decision Trees
-- Implementing Gradient Boosting Decision Trees strategy in quantconnect
+- Implementing Gradient Boosting Decision Trees strategy in Quantconnect
 
 
 # <ins> 4.4 Gradient Boosting Decision Trees <ins/>
@@ -21,8 +21,11 @@ HKU FinTech Competition
 A decision tree is a machine learning model that builds upon iteratively asking questions to partition data and reach a solution. It is the most intuitive way to zero
 in on a classification or label for an object. Visually too, it resembles and upside down tree with protruding branches and hence the name.
 
-A decision tree is a flowchart-like tree structure where each node is used to denote feature of the dataset, each branch is used to denote a decision, and each leaf
-node is used to denote the outcome.
+![Decision Tree Terminology](https://miro.medium.com/max/604/1*02ggNz4hPCyGC31GasNWyw.png)
+- Source: [Decision tree Intuition - GreyAtom](https://medium.com/greyatom/decision-tree-intuition-a38669005cb7)
+
+A decision tree is a flowchart-like tree structure where each node is used to denote feature of the dataset, each branch is used to denote a decision, and each leaf node is used to denote the outcome.
+
 
 Ensemble learning, in general, is a model that makes predictions based on a number of different models. By a combining a number of different models, an ensemble learning tends to be more flexible (less bias) and less data sensitive (less variance).
 
@@ -64,3 +67,4 @@ The strategy is bulit on Module 4.2 Bollinger Band Mean Reverting, we apply a GB
   - [Bootstrap AGgregating (Bagging)](https://www.youtube.com/watch?v=2Mg8QD0F1dQ)
   - [Boosting EXPLAINED! - CodeEmporium](https://www.youtube.com/watch?v=MIPkK5ZAsms)
   - [Gradient Boost Part 1 (of 4): Regression Main Ideas](https://www.youtube.com/watch?v=3CC4N4z3GJc)
+  - [Decision tree Intuition - GreyAtom](https://medium.com/greyatom/decision-tree-intuition-a38669005cb7)

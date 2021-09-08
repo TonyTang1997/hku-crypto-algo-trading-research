@@ -50,16 +50,20 @@ Volume Weighted Moving Average and Exponentially Weighted Moving Average are enh
 
 ## 4.1.2 Volume Weighted Moving Average
 
+
 Volume Weighted Moving Average (VWMA) highlights the importance of different sizes by weighing based on the volume of each trade. Prices with more trading volume get greater weight than prices with fewer trading volume.
 
 VWMA is calculated by summing up the dollars traded (prices multiplied by the volume of shares traded) and then dividing by the total volume of shares traded in a rolling window.
 
 The rationale behind is that orders with large sizes are executed by institutions or multiple traders with same views on the market so that these trades would move the market more. When the sizes of orders are the same or similar, the values of SMA and VWMA are close to each other.
 
+- For more information, you can refer to [Volume-Weighted Average Price (VWAP) - Investopedia](https://www.investopedia.com/terms/v/vwap.asp)
 
 ## 4.1.3 Exponentially Weighted Moving Average
 
 Exponential Weighted Moving Average (EMA) places larger weights on recent observations. EWMA responds to recent price changes more sensitively than SMA, which allocates equal weightings to all observations in the period.
+
+- For more information, you can refer to [Exponential Moving Average (EMA) - Investopedia](https://www.investopedia.com/terms/e/ema.asp)
 
 
 # <ins> Trading Logic <ins/>
@@ -68,15 +72,17 @@ We have an example here implementing a SMA cross-over strategy.
 
 When the current price is larger than the 210-days simple moving average, we think that the instrument is in a upward trend and buy it. Otherwise, we liquidate our current position.
 
-This is a very simple strategy and there are serveral improvements than you can add on it.
+This is a very simple strategy and there are several improvements than you can add on it.
 
 1. Tuning the parameter of moving average (using different days of moving average)
 
 2. Using different types of moving average (SMA, VWMA, EWMA)
 
 3. Instead of the current price, placing trades when a shorter horizon moving average cross-over a longer horizon moving average.
+  - The implementation of Cross-over and Cross-under is given in [Module 4.6 On-chain Analysis](<./Module 4.6 On-chain Analysis.md>).
 
 4. The current implementation only generates buy signals, we can also follow the downward trend to generate short signals.
+  - An example of this is showcased in the "Hashrate ribbon crossover strategy" from [Module 4.6 On-chain Analysis](<./Module 4.6 On-chain Analysis.md>), where the buy logic is reversed to generate short signals
 
 
 #### Link to code
@@ -92,3 +98,5 @@ This is a very simple strategy and there are serveral improvements than you can 
 
 ## References
 - [How to Trade Moving Averages (Part 1)](https://www.youtube.com/watch?v=4R2CDbw4g88)
+- [Exponential Moving Average (EMA) - Investopedia](https://www.investopedia.com/terms/e/ema.asp)
+- [Volume-Weighted Average Price (VWAP) - Investopedia](https://www.investopedia.com/terms/v/vwap.asp)

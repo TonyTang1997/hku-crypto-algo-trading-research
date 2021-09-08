@@ -77,7 +77,11 @@ When the 1-month Hash Rate SMA crosses over its 2-month counterpart, the worst o
 
 In order to eliminate drawdowns, Bitcoin 10- and 20-day close price SMA crossover is added as a price action indicator for generating buy signals as miners start to recover.
 
-This strategy is also applicable for other Proof-of-Work cryptocurrencies (e.g ETH, LTC)
+This strategy is also applicable for other [Proof-of-Work] cryptocurrencies (e.g ETH 1.0, LTC)
+- [Litecoin (LTC) Hashrate - BitinfoCharts](https://bitinfocharts.com/comparison/litecoin-hashrate.html)
+- [Ethereum (ETH) Hashrate - CoinWarz](https://www.coinwarz.com/mining/ethereum/hashrate-chart)
+  - As of July 2021, [ETH 2.0](https://ethmerge.com/) has not yet been released yet. However, ETH will be using [Proof-of-Stakes](https://finematics.com/ethereum-2-0-explained/) as the consensus mechanism instead after the upgrade, rendering the hashrate strategy obsolete for ETH.
+
 
 #### Link to code and video
 
@@ -115,7 +119,7 @@ This metric is also applicable for other cryptocurrencies with a public ledger.
 
 [Dmitry Kalichkin](<(https://medium.com/cryptolab/https-medium-com-kalichkin-rethinking-nvt-ratio-2cf810df0ab0)>) proposed a more responsive version of NVT as an indicator in 2018 by applying the moving average just to the volatile Transactions component only without smoothing the already stable Network Valuation component, hence Kalichkin NVT Signal (NVTS).
 
-NVT Signal can be used as an oscillator. At the inception of the indicator, Bitcoin was considered overbought when NVTS was above 150. When it was below 60, it was considered oversold. However, since Mar 2018, NVTS of bitcoin has never dropped below 60. As a result, NVTS has often over-signaled bearish and failed to signal bullish as strongly as it previously has In the last few years,
+NVT Signal can be used as an oscillator. At the inception of the indicator, Bitcoin was considered overbought when NVTS was above 150. When it was below 60, it was considered oversold. However, since Mar 2018, NVTS of bitcoin has never dropped below 60. As a result, NVTS has often over-signaled bearish and failed to signal bullish as strongly as it previously has In the last few years.
 
 ### Modified NVTS Indicator
 
@@ -129,7 +133,7 @@ To further improve NVTS, the absolute difference between NVTS and its 90-day Run
 
 ![NVTS deviation](./img/nvts_deviation.png)
 
-The deviation is considered significant when it is above 0.35. A long position is entered when NVTS is above the oversold threshold (160) and there is a significant deviation. Similarly, the position is closed when NVTS is below the overbought threshold (90) and the deviation is significant.
+The deviation is considered significant when it is above 0.35. A long position is entered when NVTS is above the overbought threshold (160) and there is a significant deviation. Similarly, the position is closed when NVTS is below the oversold threshold (90) and the deviation is significant.
 
 
 #### Link to code and video
@@ -166,6 +170,14 @@ Congratulations! You have finished the entire learning series. Now it is time fo
 - [Quandl - Bitcoin Blockchain Data](https://www.quandl.com/data/BCHAIN/)
 
 - [CoinWarz - Bitcoin hashrate chart.](https://www.coinwarz.com/mining/bitcoin/hashrate-chart)
+
+- [BitinfoCharts - Litecoin (LTC) Hashrate](https://bitinfocharts.com/comparison/litecoin-hashrate.html)
+
+- [CoinWarz - Ethereum (ETH) Hashrate](https://www.coinwarz.com/mining/ethereum/hashrate-chart)
+
+- [ETH 2.0 merge](https://ethmerge.com/)
+
+- [Finematics - Eth 2.0 and Proof-of-Stakes explained](https://finematics.com/ethereum-2-0-explained/)
 
 - [Charles Edwards - Hash ribbons & bitcoin bottoms.](https://medium.com/capriole/hash-ribbons-bitcoin-bottoms-60da13095836)
 
